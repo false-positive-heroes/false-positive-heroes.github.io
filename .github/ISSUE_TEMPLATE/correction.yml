@@ -1,0 +1,36 @@
+name: Correction request
+description: Report an error in a recorded detection period (vendors and anyone else welcome).
+title: "[Correction] "
+labels: [correction]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Corrections are recorded publicly. Final monthly figures are not overwritten; accepted corrections are added to that month's `corrections` list.
+  - type: input
+    id: engine
+    attributes:
+      label: Engine
+      placeholder: e.g. VBA32
+    validations:
+      required: true
+  - type: input
+    id: file
+    attributes:
+      label: File ID and date
+      description: As shown in the daily log.
+      placeholder: e.g. F-00dfd506, 2026-10-04
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is wrong?
+      description: e.g. the detection was removed earlier than recorded, or the entry is not a detection by this engine.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Signature update version, timestamps, or other verifiable details.

@@ -1,0 +1,60 @@
+# 4× daily at 02:17, 08:17, 14:17, 20:17 KST: fetch the anonymized periods, rebuild data and pages, commit, deploy to Pages.
+# On push (manual edits to text/template): rebuild pages and deploy without fetching.
+# Needs: repository secrets FPH_EXPORT_URL and FPH_TOKEN, and Settings → Pages → Source = "GitHub Actions".
+name: Update
+
+on:
+  schedule:
+    # 2h17m after each scan round (00·06·12·18 KST); off the hour to avoid queue delays
+    - cron: '17 5,11,17,23 * * *'   # UTC → 14:17, 20:17, 02:17, 08:17 KST
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch and aggregate
+        if: github.event_name != 'push'
+        env:
+          FPH_EXPORT_URL: ${{ secrets.FPH_EXPORT_URL }}
+          FPH_TOKEN: ${{ secrets.FPH_TOKEN }}
+        run: |
+          node scripts/fetch.mjs
+          node scripts/aggregate.mjs
+
+      - name: Build pages
+        run: node scripts/build.mjs
+
+      - name: Commit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git diff --cached --quiet || git commit -m "data: $(TZ=Asia/Seoul date +%F)"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deploy
+        uses: actions/deploy-pages@v4
