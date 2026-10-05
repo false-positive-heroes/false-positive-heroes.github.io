@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-05",
+  "cutoff": "2026-10-06T00:00:00+09:00",
+  "complete": true,
+  "events": [
+    {
+      "time": "2026-10-05T00:15:08+09:00",
+      "type": "detected",
+      "file_id": "F-fec85e21",
+      "engine": "alibabacloud",
+      "result": "Trojan:Win/WinDivert.A"
+    },
+    {
+      "time": "2026-10-05T00:15:08+09:00",
+      "type": "detected",
+      "file_id": "F-fec85e21",
+      "engine": "Zillya",
+      "result": "Trojan.WinDivert.Win32.2"
+    },
+    {
+      "time": "2026-10-05T06:02:15+09:00",
+      "type": "released",
+      "file_id": "F-9ba48774",
+      "engine": "Kingsoft",
+      "result": "malware.kb.a.778"
+    },
+    {
+      "time": "2026-10-05T06:02:15+09:00",
+      "type": "released",
+      "file_id": "F-9ba48774",
+      "engine": "MaxSecure",
+      "result": "Trojan.Malware.300983.susgen"
+    },
+    {
+      "time": "2026-10-05T06:03:04+09:00",
+      "type": "retired",
+      "file_id": "F-fec85e21",
+      "engine": "alibabacloud",
+      "result": "Trojan:Win/WinDivert.A"
+    },
+    {
+      "time": "2026-10-05T06:03:04+09:00",
+      "type": "retired",
+      "file_id": "F-fec85e21",
+      "engine": "DeepInstinct",
+      "result": "MALICIOUS"
+    },
+    {
+      "time": "2026-10-05T06:03:04+09:00",
+      "type": "retired",
+      "file_id": "F-fec85e21",
+      "engine": "Elastic",
+      "result": "Windows.Rootkit.WinDivert"
+    },
+    {
+      "time": "2026-10-05T06:03:04+09:00",
+      "type": "retired",
+      "file_id": "F-fec85e21",
+      "engine": "Microsoft",
+      "result": "Trojan:Win32/Kepavll!rfn"
+    },
+    {
+      "time": "2026-10-05T06:03:04+09:00",
+      "type": "retired",
+      "file_id": "F-fec85e21",
+      "engine": "Zillya",
+      "result": "Trojan.WinDivert.Win32.2"
+    },
+    {
+      "time": "2026-10-05T17:36:47+09:00",
+      "type": "detected",
+      "file_id": "F-9ba48774",
+      "engine": "Kingsoft",
+      "result": "malware.kb.a.778"
+    },
+    {
+      "time": "2026-10-05T18:02:17+09:00",
+      "type": "detected",
+      "file_id": "F-9ba48774",
+      "engine": "MaxSecure",
+      "result": "Trojan.Malware.300983.susgen"
+    }
+  ],
+  "ongoing": 19
+}
