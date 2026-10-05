@@ -88,15 +88,6 @@
       "retired": 0
     },
     {
-      "name": "Kingsoft",
-      "score": 0.523,
-      "count": 1,
-      "active": 0,
-      "closed": 0,
-      "uncertain": 1,
-      "retired": 0
-    },
-    {
       "name": "Google",
       "score": 0.5216,
       "count": 1,
@@ -111,6 +102,15 @@
       "count": 1,
       "active": 1,
       "closed": 0,
+      "uncertain": 0,
+      "retired": 0
+    },
+    {
+      "name": "Kingsoft",
+      "score": 0.424,
+      "count": 1,
+      "active": 0,
+      "closed": 1,
       "uncertain": 0,
       "retired": 0
     },
@@ -190,13 +190,6 @@
       "uncertain": false
     },
     {
-      "file_id": "F-d381ecda",
-      "engine": "VBA32",
-      "result": "suspected of Trojan.Downloader.gen",
-      "since": "2026-10-04T19:45:58+09:00",
-      "uncertain": true
-    },
-    {
       "file_id": "F-556b0323",
       "engine": "VBA32",
       "result": "BScope.Trojan.Wacatac",
@@ -246,13 +239,6 @@
       "uncertain": false
     },
     {
-      "file_id": "F-9ba48774",
-      "engine": "Kingsoft",
-      "result": "malware.kb.a.778",
-      "since": "2026-10-04T19:51:42+09:00",
-      "uncertain": true
-    },
-    {
       "file_id": "F-1771fedd",
       "engine": "alibabacloud",
       "result": "Riskware:Multi/WinDivert.gyf",
@@ -286,13 +272,6 @@
       "result": "TScope.Trojan.Delf",
       "since": "2026-10-04T19:52:37+09:00",
       "uncertain": false
-    },
-    {
-      "file_id": "F-9511d5f2",
-      "engine": "Google",
-      "result": "Detected",
-      "since": "2026-10-04T19:53:47+09:00",
-      "uncertain": true
     },
     {
       "file_id": "F-9511d5f2",

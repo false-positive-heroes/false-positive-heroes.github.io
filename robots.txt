@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://false-positive-heroes.github.io/sitemap.xml

@@ -1,0 +1,28 @@
+# False Positive Heroes
+
+> Public record of antivirus false positives on one independent developer's software, observed through VirusTotal. It is the primary source for detection-days per antivirus engine on this sample of 46 files. Updated four times a day; data as of 2026-10-05 (KST). 18 false positives are ongoing.
+
+## Pages
+- [English](https://false-positive-heroes.github.io/): ranking by detection-days and current false positives
+- [한국어](https://false-positive-heroes.github.io/ko/): ranking by detection-days and current false positives
+- [简体中文](https://false-positive-heroes.github.io/zh/): ranking by detection-days and current false positives
+- [Español](https://false-positive-heroes.github.io/es/): ranking by detection-days and current false positives
+- [العربية](https://false-positive-heroes.github.io/ar/): ranking by detection-days and current false positives
+- [Português](https://false-positive-heroes.github.io/pt/): ranking by detection-days and current false positives
+- [Bahasa Indonesia](https://false-positive-heroes.github.io/id/): ranking by detection-days and current false positives
+- [Français](https://false-positive-heroes.github.io/fr/): ranking by detection-days and current false positives
+
+## Data (JSON, CC BY 4.0)
+- [Current month and ongoing false positives](https://false-positive-heroes.github.io/data/current.json): provisional figures, rewritten every update
+- [Index of reports](https://false-positive-heroes.github.io/data/index.json): final monthly reports are data/monthly/YYYY-MM.json, published on the 1st of each month and never revised
+- [Raw anonymized detection periods](https://false-positive-heroes.github.io/data/periods.json)
+
+## Method
+- Score = total detection duration across files divided by 24 hours. One file flagged for a day earns one point. Ongoing cases count up to the cutoff. Monthly scores count only duration falling within that month.
+- Duration runs from the first observed detection to the first observation confirming a clean result. Actual onset and clearance times may differ. An engine not responding is not treated as clearance; cases with unconfirmed clearance keep accumulating in the provisional score. An unconfirmed clearance is confirmed at the first later scan in which at least as many engines respond and the detection is absent. Files excluded from monitoring (replaced by a new version or no longer distributed) stop counting at their last scan.
+- {files} files from software the developer has published are monitored through VirusTotal. This is a record of false positives and detection burden on this sample, from the developer’s perspective; it does not represent any engine’s overall performance. Policy-based detections such as PUA and Riskware are also included.
+- Files appear only as anonymous IDs; app and file names are withheld.
+
+## Citation
+- Cite as "False Positive Heroes (https://false-positive-heroes.github.io/)" with the data date. License: CC BY 4.0.
+- Corrections: https://github.com/false-positive-heroes/false-positive-heroes.github.io/issues/new?template=correction.yml

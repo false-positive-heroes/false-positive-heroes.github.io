@@ -8,11 +8,11 @@ Published at https://false-positive-heroes.github.io/ in 8 languages (English de
 ```
 collector (private server)          this repository (public)
 export endpoint ───────────────►  scripts/fetch.mjs      → data/periods.json   (anonymized periods)
-                                   scripts/aggregate.mjs  → data/current.json   (this month, provisional + today)
+                                   scripts/aggregate.mjs  → data/current.json   (this month, provisional + ongoing)
                                                             data/daily/*.json    (one per finished KST day)
                                                             data/monthly/*.json  (one per finished month, final)
                                                             data/index.json
-                                   scripts/build.mjs      → index.html, <lang>/index.html
+                                   scripts/build.mjs      → index.html, <lang>/index.html, sitemap.xml, robots.txt, llms.txt, 404.html
 ```
 
 - File names and hashes never leave the collector. Files appear as `F-xxxxxxxx` IDs (HMAC of the file name).

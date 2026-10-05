@@ -1,5 +1,6 @@
 # 4× daily at 02:17, 08:17, 14:17, 20:17 KST: fetch the anonymized periods, rebuild data and pages, commit, deploy to Pages.
 # On push (manual edits to text/template): rebuild pages and deploy without fetching.
+# After deploy, changed pages are submitted to IndexNow (key file <key>.txt at the site root).
 # Needs: repository secrets FPH_EXPORT_URL and FPH_TOKEN, and Settings → Pages → Source = "GitHub Actions".
 name: Update
 
@@ -45,10 +46,21 @@ jobs:
         run: node scripts/build.mjs
 
       - name: Commit
+        id: commit
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -A
+          if git diff --cached --name-only | grep -q 'index.html          git diff --cached --quiet || git commit -m "data: $(TZ=Asia/Seoul date +%F)"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deploy
+        uses: actions/deploy-pages@v4
+; then echo "pages=true" >> "$GITHUB_OUTPUT"; fi
           git diff --cached --quiet || git commit -m "data: $(TZ=Asia/Seoul date +%F)"
           git push
 
@@ -58,3 +70,14 @@ jobs:
           path: .
       - id: deploy
         uses: actions/deploy-pages@v4
+
+      - name: Notify IndexNow
+        if: steps.commit.outputs.pages == 'true' || github.event_name == 'push'
+        continue-on-error: true
+        run: |
+          KEY=$(ls | grep -E '^[0-9a-f]{32}[.]txt$' | head -1 | sed 's/[.]txt$//')
+          SITE=https://false-positive-heroes.github.io/
+          URLS=$(printf '"%s",' "$SITE" "$SITE"{ko,zh,es,ar,pt,id,fr}/ | sed 's/,$//')
+          BODY=$(printf '{"host":"false-positive-heroes.github.io","key":"%s","keyLocation":"%s%s.txt","urlList":[%s]}' "$KEY" "$SITE" "$KEY" "$URLS")
+          echo "$BODY"
+          curl -sS -o /dev/null -w 'IndexNow HTTP %{http_code}' -X POST https://api.indexnow.org/indexnow -H 'Content-Type: application/json; charset=utf-8' -d "$BODY"

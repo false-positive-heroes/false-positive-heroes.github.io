@@ -9,7 +9,8 @@
 //   A period is closed when the engine dropped the detection and the scan that showed it
 //   had at least as many engines responding as the scan that first detected it.
 //   Otherwise (released_total < detected_total) the clearance is "uncertain": it keeps
-//   accumulating, because a missing response is not a clearance.
+//   accumulating, because a missing response is not a clearance, until `confirmed` — the first
+//   later scan with enough engines responding and no detection — closes it at that time.
 //   A file removed from monitoring (new version or withdrawn) can no longer be cleared;
 //   its open periods stop at the file's last scan and count as "retired", not as cleared.
 //
@@ -25,13 +26,17 @@ const raw = JSON.parse(readFileSync('data/periods.json', 'utf8'));
 const since = Date.parse(raw.since);
 const cutoff = Date.parse(raw.cutoff);
 const freezable = raw.scanned_through === null ? cutoff : Math.min(cutoff, Date.parse(raw.scanned_through));
-const periods = raw.periods.map(p => ({
-  ...p,
-  from: Date.parse(p.detected),
-  to: p.released === null ? null : Date.parse(p.released),
-  gone: p.retired === null ? null : Date.parse(p.retired),
-  uncertain: p.released !== null && p.released_total < p.detected_total,
-}));
+const periods = raw.periods.map(p => {
+  const unconfirmed = p.released !== null && p.released_total < p.detected_total;
+  const confirmed = p.confirmed ? Date.parse(p.confirmed) : null;
+  return {
+    ...p,
+    from: Date.parse(p.detected),
+    to: p.released === null ? null : unconfirmed && confirmed !== null ? confirmed : Date.parse(p.released),
+    gone: p.retired === null ? null : Date.parse(p.retired),
+    uncertain: unconfirmed && confirmed === null,
+  };
+});
 
 const kstDate = t => new Date(t + KST).toISOString().slice(0, 10);
 const kstStart = d => Date.parse(`${d}T00:00:00+09:00`);
@@ -111,8 +116,9 @@ for (let m = kstDate(since).slice(0, 7); kstStart(`${nextMonth(m)}-01`) <= freez
 
 const today = kstDate(cutoff);
 const current = today.slice(0, 7);
+// still detected at the last scan (an engine that dropped the detection is not listed, even if unconfirmed)
 const ongoing = periods
-  .filter(p => stopAt(p, cutoff) === cutoff)
+  .filter(p => p.released === null && stopAt(p, cutoff) === cutoff)
   .sort((a, b) => a.from - b.from || a.engine.localeCompare(b.engine))
   .map(p => ({ file_id: p.file_id, engine: p.engine, result: p.result, since: iso(p.from), uncertain: p.uncertain }));
 write('data/current.json', { ...month(current, 'provisional'), ongoing });
