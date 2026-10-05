@@ -1,5 +1,5 @@
 // Turns data/periods.json into the files the page reads:
-//   data/current.json          this month (provisional) + today so far
+//   data/current.json          this month (provisional) + false positives still ongoing at the cutoff
 //   data/daily/YYYY-MM-DD.json  each finished KST day — written once, never rewritten
 //   data/monthly/YYYY-MM.json   each finished month (final) — written once, never rewritten
 //   data/index.json             list of the above for the page's selectors
@@ -111,7 +111,11 @@ for (let m = kstDate(since).slice(0, 7); kstStart(`${nextMonth(m)}-01`) <= freez
 
 const today = kstDate(cutoff);
 const current = today.slice(0, 7);
-write('data/current.json', { ...month(current, 'provisional'), today: day(today) });
+const ongoing = periods
+  .filter(p => stopAt(p, cutoff) === cutoff)
+  .sort((a, b) => a.from - b.from || a.engine.localeCompare(b.engine))
+  .map(p => ({ file_id: p.file_id, engine: p.engine, result: p.result, since: iso(p.from), uncertain: p.uncertain }));
+write('data/current.json', { ...month(current, 'provisional'), ongoing });
 
 const list = dir => readdirSync(dir).filter(f => f.endsWith('.json')).map(f => f.slice(0, -5)).sort().reverse();
 write('data/index.json', { cutoff: iso(cutoff), current, today, months: list('data/monthly'), days: list('data/daily') });

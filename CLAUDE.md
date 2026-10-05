@@ -31,13 +31,13 @@ Data flows one way: **collector server → `fetch` → `aggregate` → `build` �
   - score = detection time inside the window ÷ 24h.
   - Clearance is "uncertain" if `released_total < detected_total` (fewer engines responded); it keeps accumulating.
   - `retired` (file left monitoring — new version or withdrawn) stops counting at the file's last scan; it is counted separately, never as "cleared".
-  - `data/daily/*.json` and `data/monthly/*.json` are **written once and never rewritten**, and only after `scanned_through` passes the day/month end. Corrections go into a month's `corrections` array, not by editing figures. `data/current.json` (this month, provisional + `today`) and `data/index.json` are rewritten every run.
+  - `data/daily/*.json` and `data/monthly/*.json` are **written once and never rewritten**, and only after `scanned_through` passes the day/month end. Corrections go into a month's `corrections` array, not by editing figures. `data/current.json` (this month, provisional + `ongoing`, the false positives still active at the cutoff) and `data/index.json` are rewritten every run.
   - All day/month boundaries are KST.
 - **[scripts/build.mjs](scripts/build.mjs)** renders the template once per language. `{{key}}` comes from `i18n/<lang>.json`; `{files}` is substituted from `data/current.json`. The whole language dict is also embedded as `T` for client-side JS. The build fails if any language file's key set differs from `en.json` — add every new string to all 8 files (en, ko, zh, es, ar, pt, id, fr). `ar` is RTL (`dir` key); English is the root page.
 - **[src/template.html](src/template.html)** is the only page source. Never edit the generated `index.html` / `<lang>/index.html` directly. Client behaviour:
   - The ranking defaults to the latest final month; before the first final month exists, it shows "COMING SOON". This placeholder is temporary: after the first report (2026-11-01), delete the `.soon` markup/CSS, the `if(!index.months.length)` branch in `init()`, and the `comingSoon` i18n key.
-  - The daily log defaults to today.
-  - `?m=` and `?d=` select a month or day.
+  - The "daily false-positive status" section lists only `current.ongoing` (engine, file ID, detection name, and period = first-detected date + KST day count). `data/daily/*.json` is kept as an archive but not shown on the page.
+  - `?m=` selects a month.
   - The contact address is assembled only on click, so it never appears in the source (anti-harvesting). Keep it that way.
 - **[.github/workflows/update.yml](.github/workflows/update.yml)** runs 4× daily (02:17/08:17/14:17/20:17 KST, 2h17m after each server scan round): fetch → aggregate → build → commit → deploy via `actions/deploy-pages`. On push it only rebuilds and deploys. Needs the repo secrets `FPH_EXPORT_URL` and `FPH_TOKEN` and Pages source set to "GitHub Actions".
 

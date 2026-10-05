@@ -160,117 +160,153 @@
       "retired": 1
     }
   ],
-  "today": {
-    "date": "2026-10-05",
-    "cutoff": "2026-10-05T08:24:49+09:00",
-    "complete": false,
-    "events": [
-      {
-        "time": "2026-10-05T00:03:22+09:00",
-        "type": "uncertain",
-        "file_id": "F-d381ecda",
-        "engine": "VBA32",
-        "result": "suspected of Trojan.Downloader.gen"
-      },
-      {
-        "time": "2026-10-05T00:08:04+09:00",
-        "type": "uncertain",
-        "file_id": "F-9ba48774",
-        "engine": "Kingsoft",
-        "result": "malware.kb.a.778"
-      },
-      {
-        "time": "2026-10-05T00:15:08+09:00",
-        "type": "detected",
-        "file_id": "F-fec85e21",
-        "engine": "alibabacloud",
-        "result": "Trojan:Win/WinDivert.A"
-      },
-      {
-        "time": "2026-10-05T00:15:08+09:00",
-        "type": "released",
-        "file_id": "F-fec85e21",
-        "engine": "Lionic",
-        "result": "Riskware.ZIP.Generic.1!c"
-      },
-      {
-        "time": "2026-10-05T00:15:08+09:00",
-        "type": "detected",
-        "file_id": "F-fec85e21",
-        "engine": "Zillya",
-        "result": "Trojan.WinDivert.Win32.2"
-      },
-      {
-        "time": "2026-10-05T06:02:15+09:00",
-        "type": "released",
-        "file_id": "F-9ba48774",
-        "engine": "MaxSecure",
-        "result": "Trojan.Malware.300983.susgen"
-      },
-      {
-        "time": "2026-10-05T06:03:04+09:00",
-        "type": "retired",
-        "file_id": "F-fec85e21",
-        "engine": "alibabacloud",
-        "result": "Trojan:Win/WinDivert.A"
-      },
-      {
-        "time": "2026-10-05T06:03:04+09:00",
-        "type": "retired",
-        "file_id": "F-fec85e21",
-        "engine": "DeepInstinct",
-        "result": "MALICIOUS"
-      },
-      {
-        "time": "2026-10-05T06:03:04+09:00",
-        "type": "retired",
-        "file_id": "F-fec85e21",
-        "engine": "Elastic",
-        "result": "Windows.Rootkit.WinDivert"
-      },
-      {
-        "time": "2026-10-05T06:03:04+09:00",
-        "type": "retired",
-        "file_id": "F-fec85e21",
-        "engine": "ESET-NOD32",
-        "result": "Win32/WinDivert.A potentially unsafe application"
-      },
-      {
-        "time": "2026-10-05T06:03:04+09:00",
-        "type": "retired",
-        "file_id": "F-fec85e21",
-        "engine": "Microsoft",
-        "result": "Trojan:Win32/Kepavll!rfn"
-      },
-      {
-        "time": "2026-10-05T06:03:04+09:00",
-        "type": "retired",
-        "file_id": "F-fec85e21",
-        "engine": "Panda",
-        "result": "PUP/NetUtils"
-      },
-      {
-        "time": "2026-10-05T06:03:04+09:00",
-        "type": "retired",
-        "file_id": "F-fec85e21",
-        "engine": "VBA32",
-        "result": "Riskware.Win32.WinDivert"
-      },
-      {
-        "time": "2026-10-05T06:03:04+09:00",
-        "type": "retired",
-        "file_id": "F-fec85e21",
-        "engine": "Zillya",
-        "result": "Trojan.WinDivert.Win32.2"
-      },
-      {
-        "time": "2026-10-05T08:24:49+09:00",
-        "type": "uncertain",
-        "file_id": "F-9511d5f2",
-        "engine": "Google",
-        "result": "Detected"
-      }
-    ],
-    "ongoing": 21
-  }
+  "ongoing": [
+    {
+      "file_id": "F-00dfd506",
+      "engine": "VBA32",
+      "result": "BScope.Trojan.Wacatac",
+      "since": "2026-10-04T19:42:37+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-85e29cde",
+      "engine": "VBA32",
+      "result": "TScope.Trojan.Delf",
+      "since": "2026-10-04T19:43:12+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-b2d8ad11",
+      "engine": "VBA32",
+      "result": "TScope.Trojan.Delf",
+      "since": "2026-10-04T19:43:30+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-c6001504",
+      "engine": "VBA32",
+      "result": "suspected of Trojan.Downloader.gen",
+      "since": "2026-10-04T19:44:38+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-d381ecda",
+      "engine": "VBA32",
+      "result": "suspected of Trojan.Downloader.gen",
+      "since": "2026-10-04T19:45:58+09:00",
+      "uncertain": true
+    },
+    {
+      "file_id": "F-556b0323",
+      "engine": "VBA32",
+      "result": "BScope.Trojan.Wacatac",
+      "since": "2026-10-04T19:46:43+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-c1569f3c",
+      "engine": "Sophos",
+      "result": "Generic ML PUA (PUA)",
+      "since": "2026-10-04T19:47:02+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-39fd9b3f",
+      "engine": "ClamAV",
+      "result": "Win.Trojan.DirtJumper-2",
+      "since": "2026-10-04T19:47:45+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-7521eda2",
+      "engine": "VBA32",
+      "result": "BScope.Trojan.Wacatac",
+      "since": "2026-10-04T19:50:30+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-57ea4afd",
+      "engine": "Elastic",
+      "result": "malicious (high confidence)",
+      "since": "2026-10-04T19:50:46+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-9ba48774",
+      "engine": "Bkav",
+      "result": "W32.Malware.6DED8E2D",
+      "since": "2026-10-04T19:51:42+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-9ba48774",
+      "engine": "Jiangmin",
+      "result": "TrojanDownloader.Delf.atab",
+      "since": "2026-10-04T19:51:42+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-9ba48774",
+      "engine": "Kingsoft",
+      "result": "malware.kb.a.778",
+      "since": "2026-10-04T19:51:42+09:00",
+      "uncertain": true
+    },
+    {
+      "file_id": "F-1771fedd",
+      "engine": "alibabacloud",
+      "result": "Riskware:Multi/WinDivert.gyf",
+      "since": "2026-10-04T19:52:18+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-1771fedd",
+      "engine": "Elastic",
+      "result": "Windows.Rootkit.WinDivert",
+      "since": "2026-10-04T19:52:18+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-1771fedd",
+      "engine": "Lionic",
+      "result": "Riskware.Multi.WinDivert.1!c",
+      "since": "2026-10-04T19:52:18+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-1771fedd",
+      "engine": "VBA32",
+      "result": "TScope.Trojan.Delf",
+      "since": "2026-10-04T19:52:18+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-f1b08ead",
+      "engine": "VBA32",
+      "result": "TScope.Trojan.Delf",
+      "since": "2026-10-04T19:52:37+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-9511d5f2",
+      "engine": "Google",
+      "result": "Detected",
+      "since": "2026-10-04T19:53:47+09:00",
+      "uncertain": true
+    },
+    {
+      "file_id": "F-9511d5f2",
+      "engine": "Ikarus",
+      "result": "Trojan.SuspectCRC",
+      "since": "2026-10-04T19:53:47+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-9511d5f2",
+      "engine": "MaxSecure",
+      "result": "Trojan.Malware.300983.susgen",
+      "since": "2026-10-04T19:53:47+09:00",
+      "uncertain": false
+    }
+  ]
 }
