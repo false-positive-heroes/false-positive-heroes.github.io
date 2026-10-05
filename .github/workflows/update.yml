@@ -51,16 +51,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -A
-          if git diff --cached --name-only | grep -q 'index.html          git diff --cached --quiet || git commit -m "data: $(TZ=Asia/Seoul date +%F)"
-          git push
-
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
-      - id: deploy
-        uses: actions/deploy-pages@v4
-; then echo "pages=true" >> "$GITHUB_OUTPUT"; fi
+          if git diff --cached --name-only | grep -q 'index[.]html$'; then echo "pages=true" >> "$GITHUB_OUTPUT"; fi
           git diff --cached --quiet || git commit -m "data: $(TZ=Asia/Seoul date +%F)"
           git push
 
