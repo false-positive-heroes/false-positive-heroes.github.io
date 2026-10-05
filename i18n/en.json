@@ -47,7 +47,7 @@
   "methodTitle": "Even one false positive does harm when it lingers.",
   "methodDesc": "Before rankings: consistent criteria and verifiable evidence.",
   "m1title": "{files} files. A limited sample.",
-  "m1": "{files} files from software the developer has published are monitored through VirusTotal. This is a record of false positives and detection burden on this sample, from the developer’s perspective; it does not represent any engine’s overall performance. Policy-based detections that flag a program as potentially unwanted rather than malicious (PUA, PUP, Riskware, RiskTool, HackTool, not-a-virus) are not counted.",
+  "m1": "{files} files from software the developer has published are monitored through VirusTotal. This is a record of false positives and detection burden on this sample, from the developer’s perspective; it does not represent any engine’s overall performance. Policy-based detections (PUA, Riskware, etc.) that flag a program as potentially unwanted rather than malicious are not counted.",
   "m2title": "Longer detections, higher scores",
   "m2": "Score = total detection duration across files divided by 24 hours. One file flagged for a day earns one point. Ongoing cases count up to the cutoff. Monthly scores count only duration falling within that month.",
   "m3title": "No response does not mean cleared",

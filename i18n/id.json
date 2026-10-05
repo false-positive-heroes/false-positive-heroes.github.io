@@ -47,7 +47,7 @@
   "methodTitle": "Satu alarm palsu pun menjadi kerugian bila bertahan lama.",
   "methodDesc": "Sebelum peringkat: kriteria yang sama dan bukti yang dapat diverifikasi.",
   "m1title": "{files} berkas. Sampel terbatas.",
-  "m1": "{files} berkas dari perangkat lunak yang dirilis pengembang diamati melalui VirusTotal. Ini adalah catatan positif palsu dan beban deteksi dari sudut pandang pengembang untuk sampel ini, bukan tolok ukur kinerja antivirus secara keseluruhan. Deteksi berbasis kebijakan yang menggolongkan program sebagai berpotensi tidak diinginkan, bukan berbahaya (PUA, PUP, Riskware, RiskTool, HackTool, not-a-virus), tidak dihitung.",
+  "m1": "{files} berkas dari perangkat lunak yang dirilis pengembang diamati melalui VirusTotal. Ini adalah catatan positif palsu dan beban deteksi dari sudut pandang pengembang untuk sampel ini, bukan tolok ukur kinerja antivirus secara keseluruhan. Deteksi berbasis kebijakan (PUA, Riskware, dll.) yang menggolongkan program sebagai berpotensi tidak diinginkan, bukan berbahaya, tidak dihitung.",
   "m2title": "Makin lama, makin tinggi skornya",
   "m2": "Skor = total durasi deteksi semua berkas ÷ 24 jam. Satu berkas yang terdeteksi selama sehari bernilai satu poin. Kasus yang masih berjalan dihitung sampai waktu acuan perhitungan. Skor bulanan hanya menjumlahkan durasi di dalam bulan tersebut.",
   "m3title": "Tidak merespons bukan berarti selesai",
