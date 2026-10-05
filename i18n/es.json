@@ -47,7 +47,7 @@
   "methodTitle": "Una sola falsa alarma, si se prolonga, causa daño.",
   "methodDesc": "Antes que la clasificación, criterios comunes y pruebas verificables.",
   "m1title": "{files} archivos. Una muestra limitada.",
-  "m1": "Se observan mediante VirusTotal {files} archivos del software publicado por el desarrollador. Es un registro, desde la perspectiva del desarrollador, de falsos positivos y carga de detecciones sobre esta muestra; no es una evaluación general de los antivirus. También incluye detecciones por políticas, como PUA o Riskware.",
+  "m1": "Se observan mediante VirusTotal {files} archivos del software publicado por el desarrollador. Es un registro, desde la perspectiva del desarrollador, de falsos positivos y carga de detecciones sobre esta muestra; no es una evaluación general de los antivirus. No se cuentan las detecciones por políticas que clasifican un programa como potencialmente no deseado y no como malicioso (PUA, PUP, Riskware, RiskTool, HackTool, not-a-virus).",
   "m2title": "Cuanto más dura, más puntos",
   "m2": "Puntuación = duración total de la detección en todos los archivos ÷ 24 horas. Un archivo detectado durante un día suma un punto. Los casos en curso cuentan hasta la hora de corte. La puntuación mensual solo suma el tiempo dentro de ese mes.",
   "m3title": "Sin respuesta no significa resuelto",

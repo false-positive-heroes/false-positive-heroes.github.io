@@ -1,6 +1,6 @@
 # False Positive Heroes
 
-> Public record of antivirus false positives on one independent developer's software, observed through VirusTotal. It is the primary source for detection-days per antivirus engine on this sample of 46 files. Updated four times a day; data as of 2026-10-05 (KST). 18 false positives are ongoing.
+> Public record of antivirus false positives on one independent developer's software, observed through VirusTotal. It is the primary source for detection-days per antivirus engine on this sample of 46 files. Updated four times a day; data as of 2026-10-05 (KST). 17 false positives are ongoing.
 
 ## Pages
 - [English](https://false-positive-heroes.github.io/): ranking by detection-days and current false positives
@@ -20,7 +20,7 @@
 ## Method
 - Score = total detection duration across files divided by 24 hours. One file flagged for a day earns one point. Ongoing cases count up to the cutoff. Monthly scores count only duration falling within that month.
 - Duration runs from the first observed detection to the first observation confirming a clean result. Actual onset and clearance times may differ. An engine not responding is not treated as clearance; cases with unconfirmed clearance keep accumulating in the provisional score. An unconfirmed clearance is confirmed at the first later scan in which at least as many engines respond and the detection is absent. Files excluded from monitoring (replaced by a new version or no longer distributed) stop counting at their last scan.
-- {files} files from software the developer has published are monitored through VirusTotal. This is a record of false positives and detection burden on this sample, from the developer’s perspective; it does not represent any engine’s overall performance. Policy-based detections such as PUA and Riskware are also included.
+- {files} files from software the developer has published are monitored through VirusTotal. This is a record of false positives and detection burden on this sample, from the developer’s perspective; it does not represent any engine’s overall performance. Policy-based detections that flag a program as potentially unwanted rather than malicious (PUA, PUP, Riskware, RiskTool, HackTool, not-a-virus) are not counted.
 - Files appear only as anonymous IDs; app and file names are withheld.
 
 ## Citation

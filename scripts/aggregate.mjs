@@ -4,7 +4,9 @@
 //   data/monthly/YYYY-MM.json   each finished month (final) — written once, never rewritten
 //   data/index.json             list of the above for the page's selectors
 //
-// Scoring (methodVersion 1):
+// Scoring (methodVersion 2):
+//   Policy-based detections (PUA, PUP, Riskware, RiskTool, HackTool, potentially unsafe/unwanted,
+//   not-a-virus:) are excluded by the collector and never appear in periods.json (version 1 counted all but not-a-virus:).
 //   score = sum over periods of detection time inside the window ÷ 24h
 //   A period is closed when the engine dropped the detection and the scan that showed it
 //   had at least as many engines responding as the scan that first detected it.
@@ -18,7 +20,7 @@
 // (scanned_through), so late-arriving results are not left out of a final record.
 import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'node:fs';
 
-const METHOD_VERSION = 1;
+const METHOD_VERSION = 2;
 const DAY = 864e5;
 const KST = 9 * 36e5;
 

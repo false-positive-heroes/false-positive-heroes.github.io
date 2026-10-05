@@ -47,7 +47,7 @@
   "methodTitle": "Même une seule fausse alerte fait du tort si elle dure.",
   "methodDesc": "Avant le classement : des critères communs et des preuves vérifiables.",
   "m1title": "{files} fichiers. Un échantillon limité.",
-  "m1": "{files} fichiers issus des logiciels publiés par le développeur sont surveillés via VirusTotal. Il s’agit d’un relevé, du point de vue du développeur, des faux positifs et de la charge de détection sur cet échantillon — pas d’une évaluation globale des antivirus. Les détections fondées sur des politiques, comme PUA et Riskware, sont également incluses.",
+  "m1": "{files} fichiers issus des logiciels publiés par le développeur sont surveillés via VirusTotal. Il s’agit d’un relevé, du point de vue du développeur, des faux positifs et de la charge de détection sur cet échantillon — pas d’une évaluation globale des antivirus. Les détections fondées sur des politiques, qui classent un programme comme potentiellement indésirable plutôt que malveillant (PUA, PUP, Riskware, RiskTool, HackTool, not-a-virus), ne sont pas comptées.",
   "m2title": "Plus c’est long, plus le score monte",
   "m2": "Score = durée totale de détection sur l’ensemble des fichiers ÷ 24 heures. Un fichier détecté pendant une journée vaut un point. Les cas en cours comptent jusqu’à l’heure d’arrêt du décompte. Le score mensuel ne retient que la durée comprise dans le mois.",
   "m3title": "Pas de réponse ne veut pas dire levée",

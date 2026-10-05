@@ -26,6 +26,7 @@ Data flows one way: **collector server → `fetch` → `aggregate` → `build` �
   - The server scans clean files at 00·12 KST and detected files at 00·06·12·18 KST. This sets both the timestamp granularity and the workflow's run times.
   - A scan's time is VirusTotal's analysis date, but the row is inserted later, when the result is fetched. That is why freezing waits for `scanned_through`.
   - `data/periods.json` (the raw anonymized export) is committed and published on purpose, for verifiability and as a backup. Because of this, provisional figures are publicly readable as JSON even while the page shows COMING SOON.
+- **Policy-based detections are excluded by the collector** (since methodVersion 2, 2026-10-05): results naming a program potentially unwanted rather than malicious (PUA, PUP, Riskware, RiskTool, HackTool, "potentially unsafe/unwanted", `not-a-virus:`) never reach `periods.json`. The method text (`m1`) says so in every language — keep it in sync if the list changes.
 - **Export fields that drive the rules**: `cutoff` (last scan), `scanned_through` (earliest last-scan among currently monitored files), `files`, and per period `detected`/`released`/`detected_total`/`released_total`/`retired`.
 - **[scripts/aggregate.mjs](scripts/aggregate.mjs)** holds all scoring rules (see its header comment):
   - score = detection time inside the window ÷ 24h.
