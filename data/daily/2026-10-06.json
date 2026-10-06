@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-06",
+  "cutoff": "2026-10-07T00:00:00+09:00",
+  "complete": true,
+  "events": [
+    {
+      "time": "2026-10-06T00:13:06+09:00",
+      "type": "released",
+      "file_id": "F-9ba48774",
+      "engine": "Bkav",
+      "result": "W32.Malware.6DED8E2D"
+    },
+    {
+      "time": "2026-10-06T00:13:56+09:00",
+      "type": "released",
+      "file_id": "F-9511d5f2",
+      "engine": "Google",
+      "result": "Detected"
+    },
+    {
+      "time": "2026-10-06T00:13:56+09:00",
+      "type": "released",
+      "file_id": "F-9511d5f2",
+      "engine": "Ikarus",
+      "result": "Trojan.SuspectCRC"
+    },
+    {
+      "time": "2026-10-06T00:13:56+09:00",
+      "type": "released",
+      "file_id": "F-9511d5f2",
+      "engine": "MaxSecure",
+      "result": "Trojan.Malware.300983.susgen"
+    },
+    {
+      "time": "2026-10-06T03:02:18+09:00",
+      "type": "released",
+      "file_id": "F-9ba48774",
+      "engine": "MaxSecure",
+      "result": "Trojan.Malware.300983.susgen"
+    },
+    {
+      "time": "2026-10-06T09:01:11+09:00",
+      "type": "uncertain",
+      "file_id": "F-b2d8ad11",
+      "engine": "VBA32",
+      "result": "TScope.Trojan.Delf"
+    }
+  ],
+  "ongoing": 14
+}
