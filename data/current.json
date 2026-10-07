@@ -2,13 +2,13 @@
   "month": "2026-10",
   "status": "provisional",
   "since": "2026-10-04T19:42:02+09:00",
-  "cutoff": "2026-10-07T09:00:39+09:00",
+  "cutoff": "2026-10-07T18:00:21+09:00",
   "files": 47,
   "methodVersion": 2,
   "engines": [
     {
       "name": "VBA32",
-      "score": 20.1441,
+      "score": 20.5189,
       "count": 9,
       "active": 0,
       "closed": 8,
@@ -17,7 +17,7 @@
     },
     {
       "name": "Elastic",
-      "score": 5.3949,
+      "score": 5.7697,
       "count": 3,
       "active": 1,
       "closed": 1,
@@ -26,7 +26,7 @@
     },
     {
       "name": "ClamAV",
-      "score": 2.5506,
+      "score": 2.9254,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -35,10 +35,19 @@
     },
     {
       "name": "Jiangmin",
-      "score": 2.5479,
+      "score": 2.9227,
       "count": 1,
       "active": 0,
       "closed": 0,
+      "uncertain": 1,
+      "retired": 0
+    },
+    {
+      "name": "Kingsoft",
+      "score": 2.3248,
+      "count": 3,
+      "active": 0,
+      "closed": 2,
       "uncertain": 1,
       "retired": 0
     },
@@ -49,15 +58,6 @@
       "active": 0,
       "closed": 3,
       "uncertain": 0,
-      "retired": 0
-    },
-    {
-      "name": "Kingsoft",
-      "score": 1.95,
-      "count": 3,
-      "active": 0,
-      "closed": 2,
-      "uncertain": 1,
       "retired": 0
     },
     {
