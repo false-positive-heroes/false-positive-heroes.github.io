@@ -2,13 +2,13 @@
   "month": "2026-10",
   "status": "provisional",
   "since": "2026-10-04T19:42:02+09:00",
-  "cutoff": "2026-10-08T09:00:53+09:00",
+  "cutoff": "2026-10-08T18:00:55+09:00",
   "files": 47,
   "methodVersion": 2,
   "engines": [
     {
       "name": "VBA32",
-      "score": 21.1443,
+      "score": 21.5193,
       "count": 9,
       "active": 0,
       "closed": 8,
@@ -17,7 +17,7 @@
     },
     {
       "name": "Elastic",
-      "score": 6.3951,
+      "score": 6.7701,
       "count": 3,
       "active": 1,
       "closed": 1,
@@ -26,7 +26,7 @@
     },
     {
       "name": "ClamAV",
-      "score": 3.5508,
+      "score": 3.9258,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -35,7 +35,7 @@
     },
     {
       "name": "Jiangmin",
-      "score": 3.548,
+      "score": 3.9231,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -44,9 +44,9 @@
     },
     {
       "name": "Kingsoft",
-      "score": 2.6998,
-      "count": 3,
-      "active": 0,
+      "score": 2.933,
+      "count": 4,
+      "active": 1,
       "closed": 3,
       "uncertain": 0,
       "retired": 0
@@ -58,6 +58,15 @@
       "active": 0,
       "closed": 3,
       "uncertain": 0,
+      "retired": 0
+    },
+    {
+      "name": "Malwarebytes",
+      "score": 1.2458,
+      "count": 1,
+      "active": 0,
+      "closed": 0,
+      "uncertain": 1,
       "retired": 0
     },
     {
@@ -84,15 +93,6 @@
       "count": 1,
       "active": 0,
       "closed": 1,
-      "uncertain": 0,
-      "retired": 0
-    },
-    {
-      "name": "Malwarebytes",
-      "score": 0.8708,
-      "count": 1,
-      "active": 1,
-      "closed": 0,
       "uncertain": 0,
       "retired": 0
     },
@@ -156,10 +156,10 @@
       "uncertain": false
     },
     {
-      "file_id": "F-72d4e563",
-      "engine": "Malwarebytes",
-      "result": "Malware.AI.1662005751",
-      "since": "2026-10-07T12:06:59+09:00",
+      "file_id": "F-9ba48774",
+      "engine": "Kingsoft",
+      "result": "malware.kb.a.778",
+      "since": "2026-10-08T12:25:03+09:00",
       "uncertain": false
     }
   ]

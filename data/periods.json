@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-08T11:41:55+09:00",
+  "generated": "2026-10-08T21:01:31+09:00",
   "since": "2026-10-04T19:42:02+09:00",
-  "cutoff": "2026-10-08T09:00:53+09:00",
+  "cutoff": "2026-10-08T18:00:55+09:00",
   "scanned_through": "2026-10-07T12:00:04+09:00",
   "files": 47,
   "periods": [
@@ -90,7 +90,7 @@
       "first": true,
       "detected": "2026-10-04T19:47:45+09:00",
       "detected_total": 67,
-      "last": "2026-10-08T09:00:36+09:00",
+      "last": "2026-10-08T18:00:38+09:00",
       "released": null,
       "released_total": null,
       "confirmed": null,
@@ -155,7 +155,7 @@
       "first": true,
       "detected": "2026-10-04T19:51:42+09:00",
       "detected_total": 68,
-      "last": "2026-10-08T09:00:20+09:00",
+      "last": "2026-10-08T18:00:22+09:00",
       "released": null,
       "released_total": null,
       "confirmed": null,
@@ -227,6 +227,19 @@
       "retired": null
     },
     {
+      "file_id": "F-9ba48774",
+      "engine": "Kingsoft",
+      "result": "malware.kb.a.778",
+      "first": false,
+      "detected": "2026-10-08T12:25:03+09:00",
+      "detected_total": 60,
+      "last": "2026-10-08T18:00:22+09:00",
+      "released": null,
+      "released_total": null,
+      "confirmed": null,
+      "retired": null
+    },
+    {
       "file_id": "F-9511d5f2",
       "engine": "Google",
       "result": "Detected",
@@ -272,7 +285,7 @@
       "first": true,
       "detected": "2026-10-04T19:52:18+09:00",
       "detected_total": 68,
-      "last": "2026-10-08T09:00:53+09:00",
+      "last": "2026-10-08T18:00:55+09:00",
       "released": null,
       "released_total": null,
       "confirmed": null,
@@ -376,9 +389,9 @@
       "first": false,
       "detected": "2026-10-07T12:06:59+09:00",
       "detected_total": 67,
-      "last": "2026-10-08T09:00:03+09:00",
-      "released": null,
-      "released_total": null,
+      "last": "2026-10-08T15:00:04+09:00",
+      "released": "2026-10-08T18:00:05+09:00",
+      "released_total": 64,
       "confirmed": null,
       "retired": null
     }
