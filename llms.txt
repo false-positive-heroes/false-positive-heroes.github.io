@@ -1,6 +1,6 @@
 # False Positive Heroes
 
-> Public record of antivirus false positives on one independent developer's software, observed through VirusTotal. It is the primary source for detection-days per antivirus engine on this sample of 47 files. Updated four times a day; data as of 2026-10-09 (KST). 4 false positives are ongoing.
+> Public record of antivirus false positives on one independent developer's software, observed through VirusTotal. It is the primary source for detection-days per antivirus engine on this sample of 47 files. Updated four times a day; data as of 2026-10-09 (KST). 3 false positives are ongoing.
 
 ## Pages
 - [English](https://false-positive-heroes.github.io/): ranking by detection-days and current false positives
