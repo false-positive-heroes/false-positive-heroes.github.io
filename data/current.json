@@ -2,13 +2,13 @@
   "month": "2026-10",
   "status": "provisional",
   "since": "2026-10-04T19:42:02+09:00",
-  "cutoff": "2026-10-09T18:00:38+09:00",
+  "cutoff": "2026-10-10T06:00:37+09:00",
   "files": 47,
   "methodVersion": 2,
   "engines": [
     {
       "name": "VBA32",
-      "score": 22.5191,
+      "score": 23.0191,
       "count": 9,
       "active": 0,
       "closed": 8,
@@ -17,7 +17,7 @@
     },
     {
       "name": "Elastic",
-      "score": 7.7699,
+      "score": 8.2699,
       "count": 3,
       "active": 1,
       "closed": 1,
@@ -26,16 +26,16 @@
     },
     {
       "name": "ClamAV",
-      "score": 4.9256,
+      "score": 5.4256,
       "count": 1,
-      "active": 1,
+      "active": 0,
       "closed": 0,
-      "uncertain": 0,
+      "uncertain": 1,
       "retired": 0
     },
     {
       "name": "Jiangmin",
-      "score": 4.9229,
+      "score": 5.4229,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -44,16 +44,16 @@
     },
     {
       "name": "Kingsoft",
-      "score": 3.5578,
-      "count": 5,
-      "active": 0,
-      "closed": 4,
-      "uncertain": 1,
+      "score": 3.9424,
+      "count": 6,
+      "active": 1,
+      "closed": 5,
+      "uncertain": 0,
       "retired": 0
     },
     {
       "name": "Malwarebytes",
-      "score": 2.2456,
+      "score": 2.7456,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -135,13 +135,6 @@
   ],
   "ongoing": [
     {
-      "file_id": "F-39fd9b3f",
-      "engine": "ClamAV",
-      "result": "Win.Trojan.DirtJumper-2",
-      "since": "2026-10-04T19:47:45+09:00",
-      "uncertain": false
-    },
-    {
       "file_id": "F-9ba48774",
       "engine": "Jiangmin",
       "result": "TrojanDownloader.Delf.atab",
@@ -153,6 +146,13 @@
       "engine": "Elastic",
       "result": "Windows.Rootkit.WinDivert",
       "since": "2026-10-04T19:52:18+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-9ba48774",
+      "engine": "Kingsoft",
+      "result": "malware.kb.a.778",
+      "since": "2026-10-10T03:00:04+09:00",
       "uncertain": false
     }
   ]
