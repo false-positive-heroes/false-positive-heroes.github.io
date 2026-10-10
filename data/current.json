@@ -2,13 +2,13 @@
   "month": "2026-10",
   "status": "provisional",
   "since": "2026-10-04T19:42:02+09:00",
-  "cutoff": "2026-10-10T18:00:05+09:00",
+  "cutoff": "2026-10-11T00:01:00+09:00",
   "files": 47,
   "methodVersion": 2,
   "engines": [
     {
       "name": "VBA32",
-      "score": 23.5187,
+      "score": 23.7693,
       "count": 9,
       "active": 0,
       "closed": 8,
@@ -17,16 +17,16 @@
     },
     {
       "name": "Elastic",
-      "score": 8.3947,
-      "count": 3,
-      "active": 0,
+      "score": 8.3951,
+      "count": 4,
+      "active": 1,
       "closed": 1,
       "uncertain": 0,
       "retired": 2
     },
     {
       "name": "ClamAV",
-      "score": 5.9252,
+      "score": 6.1759,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -35,7 +35,7 @@
     },
     {
       "name": "Jiangmin",
-      "score": 5.9225,
+      "score": 6.1731,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -44,7 +44,7 @@
     },
     {
       "name": "Kingsoft",
-      "score": 4.442,
+      "score": 4.6927,
       "count": 6,
       "active": 0,
       "closed": 5,
@@ -53,7 +53,7 @@
     },
     {
       "name": "Malwarebytes",
-      "score": 3.2452,
+      "score": 3.4958,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -133,5 +133,13 @@
       "retired": 1
     }
   ],
-  "ongoing": []
+  "ongoing": [
+    {
+      "file_id": "F-e1e60750",
+      "engine": "Elastic",
+      "result": "Windows.Rootkit.WinDivert",
+      "since": "2026-10-11T00:00:24+09:00",
+      "uncertain": false
+    }
+  ]
 }
