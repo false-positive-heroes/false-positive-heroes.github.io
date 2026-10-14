@@ -2,7 +2,7 @@
   "month": "2026-10",
   "status": "provisional",
   "since": "2026-10-04T19:42:02+09:00",
-  "cutoff": "2026-10-15T00:14:43+09:00",
+  "cutoff": "2026-10-15T03:00:21+09:00",
   "files": 47,
   "methodVersion": 2,
   "engines": [
@@ -17,7 +17,7 @@
     },
     {
       "name": "Elastic",
-      "score": 12.893,
+      "score": 13.1231,
       "count": 5,
       "active": 2,
       "closed": 1,
@@ -26,7 +26,7 @@
     },
     {
       "name": "ClamAV",
-      "score": 10.1854,
+      "score": 10.3004,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -35,7 +35,7 @@
     },
     {
       "name": "Jiangmin",
-      "score": 10.1827,
+      "score": 10.2977,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -44,7 +44,7 @@
     },
     {
       "name": "Kingsoft",
-      "score": 8.7022,
+      "score": 8.8172,
       "count": 6,
       "active": 0,
       "closed": 5,
@@ -53,7 +53,7 @@
     },
     {
       "name": "Malwarebytes",
-      "score": 7.5054,
+      "score": 7.6204,
       "count": 1,
       "active": 0,
       "closed": 0,
