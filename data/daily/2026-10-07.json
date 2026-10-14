@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-07",
+  "cutoff": "2026-10-08T00:00:00+09:00",
+  "complete": true,
+  "events": [
+    {
+      "time": "2026-10-07T00:11:26+09:00",
+      "type": "released",
+      "file_id": "F-d381ecda",
+      "engine": "VBA32",
+      "result": "suspected of Trojan.Downloader.gen"
+    },
+    {
+      "time": "2026-10-07T00:11:43+09:00",
+      "type": "released",
+      "file_id": "F-00dfd506",
+      "engine": "VBA32",
+      "result": "BScope.Trojan.Wacatac"
+    },
+    {
+      "time": "2026-10-07T00:12:32+09:00",
+      "type": "released",
+      "file_id": "F-7521eda2",
+      "engine": "VBA32",
+      "result": "BScope.Trojan.Wacatac"
+    },
+    {
+      "time": "2026-10-07T00:12:49+09:00",
+      "type": "released",
+      "file_id": "F-c6001504",
+      "engine": "VBA32",
+      "result": "suspected of Trojan.Downloader.gen"
+    },
+    {
+      "time": "2026-10-07T00:13:05+09:00",
+      "type": "released",
+      "file_id": "F-85e29cde",
+      "engine": "VBA32",
+      "result": "TScope.Trojan.Delf"
+    },
+    {
+      "time": "2026-10-07T00:13:21+09:00",
+      "type": "released",
+      "file_id": "F-556b0323",
+      "engine": "VBA32",
+      "result": "BScope.Trojan.Wacatac"
+    },
+    {
+      "time": "2026-10-07T00:13:38+09:00",
+      "type": "released",
+      "file_id": "F-f1b08ead",
+      "engine": "VBA32",
+      "result": "TScope.Trojan.Delf"
+    },
+    {
+      "time": "2026-10-07T00:14:11+09:00",
+      "type": "released",
+      "file_id": "F-9ba48774",
+      "engine": "Kingsoft",
+      "result": "malware.kb.a.778"
+    },
+    {
+      "time": "2026-10-07T03:00:20+09:00",
+      "type": "released",
+      "file_id": "F-1771fedd",
+      "engine": "VBA32",
+      "result": "TScope.Trojan.Delf"
+    },
+    {
+      "time": "2026-10-07T03:00:36+09:00",
+      "type": "detected",
+      "file_id": "F-9ba48774",
+      "engine": "Kingsoft",
+      "result": "malware.kb.a.778"
+    },
+    {
+      "time": "2026-10-07T06:00:55+09:00",
+      "type": "released",
+      "file_id": "F-57ea4afd",
+      "engine": "Elastic",
+      "result": "malicious (high confidence)"
+    },
+    {
+      "time": "2026-10-07T06:00:55+09:00",
+      "type": "detected",
+      "file_id": "F-57ea4afd",
+      "engine": "Microsoft",
+      "result": "Trojan:Script/Wacatac.B!ml"
+    },
+    {
+      "time": "2026-10-07T06:32:32+09:00",
+      "type": "released",
+      "file_id": "F-57ea4afd",
+      "engine": "Microsoft",
+      "result": "Trojan:Script/Wacatac.B!ml"
+    },
+    {
+      "time": "2026-10-07T12:06:59+09:00",
+      "type": "detected",
+      "file_id": "F-72d4e563",
+      "engine": "Malwarebytes",
+      "result": "Malware.AI.1662005751"
+    },
+    {
+      "time": "2026-10-07T12:12:00+09:00",
+      "type": "retired",
+      "file_id": "F-b2d8ad11",
+      "engine": "VBA32",
+      "result": "TScope.Trojan.Delf"
+    }
+  ],
+  "ongoing": 5
+}
