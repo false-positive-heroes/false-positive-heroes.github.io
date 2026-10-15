@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-09",
+  "cutoff": "2026-10-10T00:00:00+09:00",
+  "complete": true,
+  "events": [
+    {
+      "time": "2026-10-09T06:00:05+09:00",
+      "type": "detected",
+      "file_id": "F-9ba48774",
+      "engine": "Kingsoft",
+      "result": "malware.kb.a.778"
+    }
+  ],
+  "ongoing": 5
+}
