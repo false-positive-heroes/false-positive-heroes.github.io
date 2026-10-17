@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-10",
+  "cutoff": "2026-10-11T00:00:00+09:00",
+  "complete": true,
+  "events": [
+    {
+      "time": "2026-10-10T00:13:54+09:00",
+      "type": "released",
+      "file_id": "F-9ba48774",
+      "engine": "Kingsoft",
+      "result": "malware.kb.a.778"
+    },
+    {
+      "time": "2026-10-10T03:00:04+09:00",
+      "type": "detected",
+      "file_id": "F-9ba48774",
+      "engine": "Kingsoft",
+      "result": "malware.kb.a.778"
+    },
+    {
+      "time": "2026-10-10T09:00:20+09:00",
+      "type": "retired",
+      "file_id": "F-1771fedd",
+      "engine": "Elastic",
+      "result": "Windows.Rootkit.WinDivert"
+    }
+  ],
+  "ongoing": 4
+}
