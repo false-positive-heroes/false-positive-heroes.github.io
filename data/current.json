@@ -8,12 +8,12 @@
   "engines": [
     {
       "name": "Elastic",
-      "score": 24.2515,
+      "score": 23.625,
       "count": 6,
-      "active": 2,
+      "active": 1,
       "closed": 1,
       "uncertain": 0,
-      "retired": 3
+      "retired": 4
     },
     {
       "name": "VBA32",
@@ -146,13 +146,6 @@
       "engine": "Jiangmin",
       "result": "TrojanDownloader.Delf.atab",
       "since": "2026-10-04T19:51:42+09:00",
-      "uncertain": false
-    },
-    {
-      "file_id": "F-a9d3b9ee",
-      "engine": "Elastic",
-      "result": "malicious (moderate confidence)",
-      "since": "2026-10-14T12:31:26+09:00",
       "uncertain": false
     },
     {
