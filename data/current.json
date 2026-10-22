@@ -2,13 +2,13 @@
   "month": "2026-10",
   "status": "provisional",
   "since": "2026-10-04T19:42:02+09:00",
-  "cutoff": "2026-10-22T09:00:23+09:00",
+  "cutoff": "2026-10-22T12:00:57+09:00",
   "files": 51,
   "methodVersion": 2,
   "engines": [
     {
       "name": "Elastic",
-      "score": 24.9983,
+      "score": 25.1237,
       "count": 6,
       "active": 1,
       "closed": 1,
@@ -26,7 +26,7 @@
     },
     {
       "name": "ClamAV",
-      "score": 17.5504,
+      "score": 17.6758,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -53,7 +53,7 @@
     },
     {
       "name": "Malwarebytes",
-      "score": 14.8704,
+      "score": 14.9958,
       "count": 1,
       "active": 0,
       "closed": 0,
