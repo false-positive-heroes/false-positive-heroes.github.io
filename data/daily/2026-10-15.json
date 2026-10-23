@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-15",
+  "cutoff": "2026-10-16T00:00:00+09:00",
+  "complete": true,
+  "events": [
+    {
+      "time": "2026-10-15T09:00:23+09:00",
+      "type": "retired",
+      "file_id": "F-e1e60750",
+      "engine": "Elastic",
+      "result": "Windows.Rootkit.WinDivert"
+    }
+  ],
+  "ongoing": 5
+}

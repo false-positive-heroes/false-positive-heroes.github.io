@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-23T10:30:02+09:00",
+  "generated": "2026-10-23T19:02:41+09:00",
   "since": "2026-10-04T19:42:02+09:00",
-  "cutoff": "2026-10-23T09:00:20+09:00",
-  "scanned_through": "2026-10-14T12:07:11+09:00",
+  "cutoff": "2026-10-23T18:00:04+09:00",
+  "scanned_through": "2026-10-16T00:00:57+09:00",
   "files": 51,
   "periods": [
     {
@@ -376,7 +376,7 @@
       "first": true,
       "detected": "2026-10-16T00:00:22+09:00",
       "detected_total": 68,
-      "last": "2026-10-23T09:00:03+09:00",
+      "last": "2026-10-23T18:00:04+09:00",
       "released": null,
       "released_total": null,
       "confirmed": null,
