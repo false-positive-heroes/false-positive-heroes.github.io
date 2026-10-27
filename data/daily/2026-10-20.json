@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-20",
+  "cutoff": "2026-10-21T00:00:00+09:00",
+  "complete": true,
+  "events": [
+    {
+      "time": "2026-10-20T09:00:38+09:00",
+      "type": "retired",
+      "file_id": "F-a9d3b9ee",
+      "engine": "Elastic",
+      "result": "malicious (moderate confidence)"
+    }
+  ],
+  "ongoing": 5
+}
