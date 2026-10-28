@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-21",
+  "cutoff": "2026-10-22T00:00:00+09:00",
+  "complete": true,
+  "events": [
+    {
+      "time": "2026-10-21T15:56:06+09:00",
+      "type": "released",
+      "file_id": "F-72d4e563",
+      "engine": "Malwarebytes",
+      "result": "Malware.AI.1662005751"
+    }
+  ],
+  "ongoing": 4
+}
