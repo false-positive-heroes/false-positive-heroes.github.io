@@ -1,0 +1,29 @@
+{
+  "month": "2022-11",
+  "status": "final",
+  "since": "2022-11-03T02:35:29+09:00",
+  "cutoff": "2022-12-01T00:00:00+09:00",
+  "files": 56,
+  "methodVersion": 2,
+  "engines": [
+    {
+      "name": "MaxSecure",
+      "score": 27.892,
+      "count": 1,
+      "active": 1,
+      "closed": 0,
+      "uncertain": 0,
+      "retired": 0
+    },
+    {
+      "name": "VBA32",
+      "score": 27.892,
+      "count": 1,
+      "active": 1,
+      "closed": 0,
+      "uncertain": 0,
+      "retired": 0
+    }
+  ],
+  "corrections": []
+}

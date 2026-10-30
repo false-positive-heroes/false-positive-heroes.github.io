@@ -1,0 +1,22 @@
+{
+  "date": "2022-11-03",
+  "cutoff": "2022-11-04T00:00:00+09:00",
+  "complete": true,
+  "events": [
+    {
+      "time": "2022-11-03T02:35:29+09:00",
+      "type": "detected",
+      "file_id": "F-19ce23fa",
+      "engine": "MaxSecure",
+      "result": "Trojan.Malware.300983.susgen"
+    },
+    {
+      "time": "2022-11-03T02:35:29+09:00",
+      "type": "detected",
+      "file_id": "F-19ce23fa",
+      "engine": "VBA32",
+      "result": "BScope.Trojan.Adkor"
+    }
+  ],
+  "ongoing": 2
+}
