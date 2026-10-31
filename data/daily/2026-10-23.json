@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-23",
+  "cutoff": "2026-10-24T00:00:00+09:00",
+  "complete": true,
+  "events": [
+    {
+      "time": "2026-10-23T11:14:15+09:00",
+      "type": "detected",
+      "file_id": "F-9ba48774",
+      "engine": "Malwarebytes",
+      "result": "MachineLearning/Anomalous.93%"
+    },
+    {
+      "time": "2026-10-23T16:44:35+09:00",
+      "type": "detected",
+      "file_id": "F-f325003c",
+      "engine": "Elastic",
+      "result": "malicious (high confidence)"
+    }
+  ],
+  "ongoing": 6
+}

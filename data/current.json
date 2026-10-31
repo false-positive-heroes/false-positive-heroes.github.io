@@ -2,40 +2,40 @@
   "month": "2026-10",
   "status": "provisional",
   "since": "2026-10-01T00:00:00+09:00",
-  "cutoff": "2026-10-31T09:00:56+09:00",
+  "cutoff": "2026-10-31T18:01:25+09:00",
   "files": 57,
   "methodVersion": 2,
   "engines": [
     {
       "name": "VBA32",
-      "score": 51.5269,
+      "score": 52.2766,
       "count": 11,
-      "active": 2,
-      "closed": 8,
+      "active": 0,
+      "closed": 10,
       "uncertain": 0,
       "retired": 1
     },
     {
       "name": "Elastic",
-      "score": 43.4256,
-      "count": 9,
-      "active": 2,
+      "score": 43.9411,
+      "count": 10,
+      "active": 3,
       "closed": 1,
-      "uncertain": 2,
-      "retired": 4
+      "uncertain": 1,
+      "retired": 5
     },
     {
       "name": "MaxSecure",
-      "score": 33.4785,
-      "count": 6,
-      "active": 2,
-      "closed": 4,
+      "score": 33.995,
+      "count": 9,
+      "active": 3,
+      "closed": 6,
       "uncertain": 0,
       "retired": 0
     },
     {
       "name": "ClamAV",
-      "score": 26.5508,
+      "score": 26.9262,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -52,6 +52,15 @@
       "retired": 0
     },
     {
+      "name": "Kingsoft",
+      "score": 15.9352,
+      "count": 11,
+      "active": 0,
+      "closed": 11,
+      "uncertain": 0,
+      "retired": 0
+    },
+    {
       "name": "Malwarebytes",
       "score": 15.8159,
       "count": 2,
@@ -61,17 +70,8 @@
       "retired": 0
     },
     {
-      "name": "Kingsoft",
-      "score": 15.7008,
-      "count": 10,
-      "active": 0,
-      "closed": 10,
-      "uncertain": 0,
-      "retired": 0
-    },
-    {
       "name": "DeepInstinct",
-      "score": 2.1726,
+      "score": 2.9233,
       "count": 3,
       "active": 2,
       "closed": 0,
@@ -80,19 +80,37 @@
     },
     {
       "name": "Google",
-      "score": 2.0557,
+      "score": 2.4303,
       "count": 2,
-      "active": 1,
-      "closed": 1,
+      "active": 0,
+      "closed": 2,
       "uncertain": 0,
       "retired": 0
     },
     {
       "name": "Ikarus",
-      "score": 2.0557,
+      "score": 2.4303,
       "count": 2,
+      "active": 0,
+      "closed": 2,
+      "uncertain": 0,
+      "retired": 0
+    },
+    {
+      "name": "TrellixENS",
+      "score": 1.2507,
+      "count": 1,
+      "active": 0,
+      "closed": 0,
+      "uncertain": 1,
+      "retired": 0
+    },
+    {
+      "name": "SentinelOne",
+      "score": 1.2492,
+      "count": 1,
       "active": 1,
-      "closed": 1,
+      "closed": 0,
       "uncertain": 0,
       "retired": 0
     },
@@ -102,24 +120,6 @@
       "count": 1,
       "active": 0,
       "closed": 1,
-      "uncertain": 0,
-      "retired": 0
-    },
-    {
-      "name": "TrellixENS",
-      "score": 0.8754,
-      "count": 1,
-      "active": 1,
-      "closed": 0,
-      "uncertain": 0,
-      "retired": 0
-    },
-    {
-      "name": "SentinelOne",
-      "score": 0.8738,
-      "count": 1,
-      "active": 1,
-      "closed": 0,
       "uncertain": 0,
       "retired": 0
     },
@@ -153,31 +153,10 @@
   ],
   "ongoing": [
     {
-      "file_id": "F-19ce23fa",
-      "engine": "MaxSecure",
-      "result": "Trojan.Malware.300983.susgen",
-      "since": "2022-11-03T02:35:29+09:00",
-      "uncertain": false
-    },
-    {
-      "file_id": "F-19ce23fa",
-      "engine": "VBA32",
-      "result": "BScope.Trojan.Adkor",
-      "since": "2022-11-03T02:35:29+09:00",
-      "uncertain": false
-    },
-    {
       "file_id": "F-39fd9b3f",
       "engine": "ClamAV",
       "result": "Win.Trojan.DirtJumper-2",
       "since": "2026-10-04T19:47:45+09:00",
-      "uncertain": false
-    },
-    {
-      "file_id": "F-b01b5f51",
-      "engine": "TrellixENS",
-      "result": "GenericRXWU-GS!E2A4CEFDEC99",
-      "since": "2026-10-30T12:00:21+09:00",
       "uncertain": false
     },
     {
@@ -192,34 +171,6 @@
       "engine": "Elastic",
       "result": "malicious (moderate confidence)",
       "since": "2026-10-30T12:00:54+09:00",
-      "uncertain": false
-    },
-    {
-      "file_id": "F-bc89365f",
-      "engine": "Google",
-      "result": "Detected",
-      "since": "2026-10-30T12:00:54+09:00",
-      "uncertain": false
-    },
-    {
-      "file_id": "F-bc89365f",
-      "engine": "Ikarus",
-      "result": "Trojan-Downloader.Win32.Dadobra",
-      "since": "2026-10-30T12:00:54+09:00",
-      "uncertain": false
-    },
-    {
-      "file_id": "F-f1d33156",
-      "engine": "MaxSecure",
-      "result": "Trojan.Malware.300983.susgen",
-      "since": "2026-10-30T12:02:03+09:00",
-      "uncertain": false
-    },
-    {
-      "file_id": "F-f1d33156",
-      "engine": "VBA32",
-      "result": "BScope.TrojanPSW.Ggpass",
-      "since": "2026-10-30T12:02:03+09:00",
       "uncertain": false
     },
     {
@@ -241,6 +192,34 @@
       "engine": "SentinelOne",
       "result": "Static AI - Suspicious Archive",
       "since": "2026-10-30T12:02:36+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-f51429e1",
+      "engine": "Elastic",
+      "result": "Windows.Rootkit.WinDivert",
+      "since": "2026-10-31T12:02:38+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-19ce23fa",
+      "engine": "MaxSecure",
+      "result": "Trojan.Malware.300983.susgen",
+      "since": "2026-10-31T15:00:36+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-f1d33156",
+      "engine": "MaxSecure",
+      "result": "Trojan.Malware.300983.susgen",
+      "since": "2026-10-31T18:00:52+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-5393a814",
+      "engine": "MaxSecure",
+      "result": "Trojan.Malware.300983.susgen",
+      "since": "2026-10-31T18:01:08+09:00",
       "uncertain": false
     }
   ]
