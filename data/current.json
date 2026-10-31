@@ -2,13 +2,13 @@
   "month": "2026-10",
   "status": "provisional",
   "since": "2026-10-01T00:00:00+09:00",
-  "cutoff": "2026-10-30T18:01:10+09:00",
+  "cutoff": "2026-10-31T09:00:56+09:00",
   "files": 57,
   "methodVersion": 2,
   "engines": [
     {
       "name": "VBA32",
-      "score": 50.2772,
+      "score": 51.5269,
       "count": 11,
       "active": 2,
       "closed": 8,
@@ -17,7 +17,7 @@
     },
     {
       "name": "Elastic",
-      "score": 40.9262,
+      "score": 43.4256,
       "count": 9,
       "active": 2,
       "closed": 1,
@@ -26,7 +26,7 @@
     },
     {
       "name": "MaxSecure",
-      "score": 32.2289,
+      "score": 33.4785,
       "count": 6,
       "active": 2,
       "closed": 4,
@@ -35,7 +35,7 @@
     },
     {
       "name": "ClamAV",
-      "score": 25.926,
+      "score": 26.5508,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -70,8 +70,17 @@
       "retired": 0
     },
     {
+      "name": "DeepInstinct",
+      "score": 2.1726,
+      "count": 3,
+      "active": 2,
+      "closed": 0,
+      "uncertain": 0,
+      "retired": 1
+    },
+    {
       "name": "Google",
-      "score": 1.4308,
+      "score": 2.0557,
       "count": 2,
       "active": 1,
       "closed": 1,
@@ -80,7 +89,7 @@
     },
     {
       "name": "Ikarus",
-      "score": 1.4308,
+      "score": 2.0557,
       "count": 2,
       "active": 1,
       "closed": 1,
@@ -97,13 +106,22 @@
       "retired": 0
     },
     {
-      "name": "DeepInstinct",
-      "score": 0.9229,
-      "count": 3,
-      "active": 2,
+      "name": "TrellixENS",
+      "score": 0.8754,
+      "count": 1,
+      "active": 1,
       "closed": 0,
       "uncertain": 0,
-      "retired": 1
+      "retired": 0
+    },
+    {
+      "name": "SentinelOne",
+      "score": 0.8738,
+      "count": 1,
+      "active": 1,
+      "closed": 0,
+      "uncertain": 0,
+      "retired": 0
     },
     {
       "name": "Microsoft",
@@ -113,24 +131,6 @@
       "closed": 1,
       "uncertain": 0,
       "retired": 1
-    },
-    {
-      "name": "TrellixENS",
-      "score": 0.2506,
-      "count": 1,
-      "active": 1,
-      "closed": 0,
-      "uncertain": 0,
-      "retired": 0
-    },
-    {
-      "name": "SentinelOne",
-      "score": 0.249,
-      "count": 1,
-      "active": 1,
-      "closed": 0,
-      "uncertain": 0,
-      "retired": 0
     },
     {
       "name": "alibabacloud",
