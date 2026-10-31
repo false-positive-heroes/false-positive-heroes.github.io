@@ -1,41 +1,41 @@
 {
-  "month": "2026-10",
+  "month": "2026-11",
   "status": "provisional",
-  "since": "2026-10-01T00:00:00+09:00",
-  "cutoff": "2026-10-31T18:01:25+09:00",
+  "since": "2026-11-01T00:00:00+09:00",
+  "cutoff": "2026-11-01T00:21:43+09:00",
   "files": 57,
   "methodVersion": 2,
   "engines": [
     {
-      "name": "VBA32",
-      "score": 52.2766,
-      "count": 11,
-      "active": 0,
-      "closed": 10,
-      "uncertain": 0,
-      "retired": 1
-    },
-    {
       "name": "Elastic",
-      "score": 43.9411,
-      "count": 10,
-      "active": 3,
+      "score": 0.0572,
+      "count": 4,
+      "active": 2,
       "closed": 1,
       "uncertain": 1,
-      "retired": 5
+      "retired": 0
     },
     {
       "name": "MaxSecure",
-      "score": 33.995,
-      "count": 9,
-      "active": 3,
-      "closed": 6,
+      "score": 0.0452,
+      "count": 3,
+      "active": 2,
+      "closed": 0,
+      "uncertain": 1,
+      "retired": 0
+    },
+    {
+      "name": "DeepInstinct",
+      "score": 0.0302,
+      "count": 2,
+      "active": 2,
+      "closed": 0,
       "uncertain": 0,
       "retired": 0
     },
     {
       "name": "ClamAV",
-      "score": 26.9262,
+      "score": 0.0151,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -43,112 +43,22 @@
       "retired": 0
     },
     {
-      "name": "Jiangmin",
-      "score": 17.5477,
+      "name": "SentinelOne",
+      "score": 0.0151,
       "count": 1,
-      "active": 0,
-      "closed": 1,
-      "uncertain": 0,
-      "retired": 0
-    },
-    {
-      "name": "Kingsoft",
-      "score": 15.9352,
-      "count": 11,
-      "active": 0,
-      "closed": 11,
-      "uncertain": 0,
-      "retired": 0
-    },
-    {
-      "name": "Malwarebytes",
-      "score": 15.8159,
-      "count": 2,
-      "active": 0,
-      "closed": 2,
-      "uncertain": 0,
-      "retired": 0
-    },
-    {
-      "name": "DeepInstinct",
-      "score": 2.9233,
-      "count": 3,
-      "active": 2,
+      "active": 1,
       "closed": 0,
-      "uncertain": 0,
-      "retired": 1
-    },
-    {
-      "name": "Google",
-      "score": 2.4303,
-      "count": 2,
-      "active": 0,
-      "closed": 2,
-      "uncertain": 0,
-      "retired": 0
-    },
-    {
-      "name": "Ikarus",
-      "score": 2.4303,
-      "count": 2,
-      "active": 0,
-      "closed": 2,
       "uncertain": 0,
       "retired": 0
     },
     {
       "name": "TrellixENS",
-      "score": 1.2507,
+      "score": 0.0151,
       "count": 1,
       "active": 0,
       "closed": 0,
       "uncertain": 1,
       "retired": 0
-    },
-    {
-      "name": "SentinelOne",
-      "score": 1.2492,
-      "count": 1,
-      "active": 1,
-      "closed": 0,
-      "uncertain": 0,
-      "retired": 0
-    },
-    {
-      "name": "Bkav",
-      "score": 1.1815,
-      "count": 1,
-      "active": 0,
-      "closed": 1,
-      "uncertain": 0,
-      "retired": 0
-    },
-    {
-      "name": "Microsoft",
-      "score": 0.4457,
-      "count": 2,
-      "active": 0,
-      "closed": 1,
-      "uncertain": 0,
-      "retired": 1
-    },
-    {
-      "name": "alibabacloud",
-      "score": 0.2416,
-      "count": 1,
-      "active": 0,
-      "closed": 0,
-      "uncertain": 0,
-      "retired": 1
-    },
-    {
-      "name": "Zillya",
-      "score": 0.2416,
-      "count": 1,
-      "active": 0,
-      "closed": 0,
-      "uncertain": 0,
-      "retired": 1
     }
   ],
   "ongoing": [
@@ -195,24 +105,10 @@
       "uncertain": false
     },
     {
-      "file_id": "F-f51429e1",
-      "engine": "Elastic",
-      "result": "Windows.Rootkit.WinDivert",
-      "since": "2026-10-31T12:02:38+09:00",
-      "uncertain": false
-    },
-    {
       "file_id": "F-19ce23fa",
       "engine": "MaxSecure",
       "result": "Trojan.Malware.300983.susgen",
       "since": "2026-10-31T15:00:36+09:00",
-      "uncertain": false
-    },
-    {
-      "file_id": "F-f1d33156",
-      "engine": "MaxSecure",
-      "result": "Trojan.Malware.300983.susgen",
-      "since": "2026-10-31T18:00:52+09:00",
       "uncertain": false
     },
     {
