@@ -2,13 +2,13 @@
   "month": "2026-11",
   "status": "provisional",
   "since": "2026-11-01T00:00:00+09:00",
-  "cutoff": "2026-11-02T03:00:19+09:00",
+  "cutoff": "2026-11-02T09:00:37+09:00",
   "files": 57,
   "methodVersion": 2,
   "engines": [
     {
       "name": "Elastic",
-      "score": 3.3876,
+      "score": 4.1382,
       "count": 4,
       "active": 2,
       "closed": 1,
@@ -17,7 +17,7 @@
     },
     {
       "name": "MaxSecure",
-      "score": 3.3757,
+      "score": 4.1263,
       "count": 3,
       "active": 1,
       "closed": 0,
@@ -26,16 +26,16 @@
     },
     {
       "name": "DeepInstinct",
-      "score": 2.2504,
+      "score": 2.7509,
       "count": 2,
-      "active": 2,
+      "active": 1,
       "closed": 0,
-      "uncertain": 0,
+      "uncertain": 1,
       "retired": 0
     },
     {
       "name": "ClamAV",
-      "score": 1.1252,
+      "score": 1.3754,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -44,7 +44,7 @@
     },
     {
       "name": "SentinelOne",
-      "score": 1.1252,
+      "score": 1.3754,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -53,7 +53,7 @@
     },
     {
       "name": "TrellixENS",
-      "score": 1.1252,
+      "score": 1.3754,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -62,20 +62,20 @@
     },
     {
       "name": "Kingsoft",
-      "score": 0.9998,
+      "score": 1.25,
       "count": 1,
-      "active": 1,
+      "active": 0,
       "closed": 0,
-      "uncertain": 0,
+      "uncertain": 1,
       "retired": 0
     },
     {
       "name": "Malwarebytes",
-      "score": 0.6144,
+      "score": 0.8646,
       "count": 1,
-      "active": 1,
+      "active": 0,
       "closed": 0,
-      "uncertain": 0,
+      "uncertain": 1,
       "retired": 0
     }
   ],
@@ -103,13 +103,6 @@
     },
     {
       "file_id": "F-5393a814",
-      "engine": "DeepInstinct",
-      "result": "MALICIOUS",
-      "since": "2026-10-30T12:02:36+09:00",
-      "uncertain": false
-    },
-    {
-      "file_id": "F-5393a814",
       "engine": "Elastic",
       "result": "malicious (high confidence)",
       "since": "2026-10-30T12:02:36+09:00",
@@ -123,24 +116,10 @@
       "uncertain": false
     },
     {
-      "file_id": "F-19ce23fa",
+      "file_id": "F-5393a814",
       "engine": "MaxSecure",
       "result": "Trojan.Malware.300983.susgen",
-      "since": "2026-10-31T15:00:36+09:00",
-      "uncertain": false
-    },
-    {
-      "file_id": "F-5393a814",
-      "engine": "Kingsoft",
-      "result": "malware.kb.a.999",
-      "since": "2026-11-01T03:00:37+09:00",
-      "uncertain": false
-    },
-    {
-      "file_id": "F-9ba48774",
-      "engine": "Malwarebytes",
-      "result": "MachineLearning/Anomalous.93%",
-      "since": "2026-11-01T12:15:33+09:00",
+      "since": "2026-10-31T18:01:08+09:00",
       "uncertain": false
     }
   ]
