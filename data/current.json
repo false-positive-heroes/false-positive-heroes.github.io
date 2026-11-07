@@ -2,13 +2,13 @@
   "month": "2026-11",
   "status": "provisional",
   "since": "2026-11-01T00:00:00+09:00",
-  "cutoff": "2026-11-07T09:00:38+09:00",
+  "cutoff": "2026-11-07T18:00:36+09:00",
   "files": 57,
   "methodVersion": 2,
   "engines": [
     {
       "name": "Elastic",
-      "score": 18.2902,
+      "score": 19.0401,
       "count": 4,
       "active": 2,
       "closed": 2,
@@ -17,7 +17,7 @@
     },
     {
       "name": "MaxSecure",
-      "score": 16.5011,
+      "score": 17.2511,
       "count": 4,
       "active": 0,
       "closed": 2,
@@ -26,7 +26,7 @@
     },
     {
       "name": "DeepInstinct",
-      "score": 12.7509,
+      "score": 13.5008,
       "count": 2,
       "active": 2,
       "closed": 0,
@@ -35,7 +35,7 @@
     },
     {
       "name": "ClamAV",
-      "score": 6.3754,
+      "score": 6.7504,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -44,7 +44,7 @@
     },
     {
       "name": "SentinelOne",
-      "score": 6.3754,
+      "score": 6.7504,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -53,7 +53,7 @@
     },
     {
       "name": "TrellixENS",
-      "score": 6.3754,
+      "score": 6.7504,
       "count": 1,
       "active": 0,
       "closed": 0,
