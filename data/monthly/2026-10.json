@@ -1,0 +1,155 @@
+{
+  "month": "2026-10",
+  "status": "final",
+  "since": "2026-10-01T00:00:00+09:00",
+  "cutoff": "2026-11-01T00:00:00+09:00",
+  "files": 57,
+  "methodVersion": 2,
+  "engines": [
+    {
+      "name": "VBA32",
+      "score": 52.2766,
+      "count": 11,
+      "active": 0,
+      "closed": 10,
+      "uncertain": 0,
+      "retired": 1
+    },
+    {
+      "name": "Elastic",
+      "score": 44.9371,
+      "count": 10,
+      "active": 4,
+      "closed": 1,
+      "uncertain": 0,
+      "retired": 5
+    },
+    {
+      "name": "MaxSecure",
+      "score": 34.7421,
+      "count": 9,
+      "active": 3,
+      "closed": 6,
+      "uncertain": 0,
+      "retired": 0
+    },
+    {
+      "name": "ClamAV",
+      "score": 27.1752,
+      "count": 1,
+      "active": 1,
+      "closed": 0,
+      "uncertain": 0,
+      "retired": 0
+    },
+    {
+      "name": "Jiangmin",
+      "score": 17.5477,
+      "count": 1,
+      "active": 0,
+      "closed": 1,
+      "uncertain": 0,
+      "retired": 0
+    },
+    {
+      "name": "Kingsoft",
+      "score": 15.9352,
+      "count": 11,
+      "active": 0,
+      "closed": 11,
+      "uncertain": 0,
+      "retired": 0
+    },
+    {
+      "name": "Malwarebytes",
+      "score": 15.8159,
+      "count": 2,
+      "active": 0,
+      "closed": 2,
+      "uncertain": 0,
+      "retired": 0
+    },
+    {
+      "name": "DeepInstinct",
+      "score": 3.4213,
+      "count": 3,
+      "active": 2,
+      "closed": 0,
+      "uncertain": 0,
+      "retired": 1
+    },
+    {
+      "name": "Google",
+      "score": 2.4303,
+      "count": 2,
+      "active": 0,
+      "closed": 2,
+      "uncertain": 0,
+      "retired": 0
+    },
+    {
+      "name": "Ikarus",
+      "score": 2.4303,
+      "count": 2,
+      "active": 0,
+      "closed": 2,
+      "uncertain": 0,
+      "retired": 0
+    },
+    {
+      "name": "TrellixENS",
+      "score": 1.4998,
+      "count": 1,
+      "active": 0,
+      "closed": 0,
+      "uncertain": 1,
+      "retired": 0
+    },
+    {
+      "name": "SentinelOne",
+      "score": 1.4982,
+      "count": 1,
+      "active": 1,
+      "closed": 0,
+      "uncertain": 0,
+      "retired": 0
+    },
+    {
+      "name": "Bkav",
+      "score": 1.1815,
+      "count": 1,
+      "active": 0,
+      "closed": 1,
+      "uncertain": 0,
+      "retired": 0
+    },
+    {
+      "name": "Microsoft",
+      "score": 0.4457,
+      "count": 2,
+      "active": 0,
+      "closed": 1,
+      "uncertain": 0,
+      "retired": 1
+    },
+    {
+      "name": "alibabacloud",
+      "score": 0.2416,
+      "count": 1,
+      "active": 0,
+      "closed": 0,
+      "uncertain": 0,
+      "retired": 1
+    },
+    {
+      "name": "Zillya",
+      "score": 0.2416,
+      "count": 1,
+      "active": 0,
+      "closed": 0,
+      "uncertain": 0,
+      "retired": 1
+    }
+  ],
+  "corrections": []
+}

@@ -2,13 +2,13 @@
   "month": "2026-11",
   "status": "provisional",
   "since": "2026-11-01T00:00:00+09:00",
-  "cutoff": "2026-11-07T18:00:36+09:00",
+  "cutoff": "2026-11-08T03:00:38+09:00",
   "files": 57,
   "methodVersion": 2,
   "engines": [
     {
       "name": "Elastic",
-      "score": 19.0401,
+      "score": 19.7902,
       "count": 4,
       "active": 2,
       "closed": 2,
@@ -17,7 +17,7 @@
     },
     {
       "name": "MaxSecure",
-      "score": 17.2511,
+      "score": 18.0011,
       "count": 4,
       "active": 0,
       "closed": 2,
@@ -26,16 +26,16 @@
     },
     {
       "name": "DeepInstinct",
-      "score": 13.5008,
+      "score": 14.2509,
       "count": 2,
-      "active": 2,
+      "active": 1,
       "closed": 0,
-      "uncertain": 0,
+      "uncertain": 1,
       "retired": 0
     },
     {
       "name": "ClamAV",
-      "score": 6.7504,
+      "score": 7.1254,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -44,7 +44,7 @@
     },
     {
       "name": "SentinelOne",
-      "score": 6.7504,
+      "score": 7.1254,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -53,7 +53,7 @@
     },
     {
       "name": "TrellixENS",
-      "score": 6.7504,
+      "score": 7.1254,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -62,9 +62,9 @@
     },
     {
       "name": "Kingsoft",
-      "score": 4.0891,
-      "count": 7,
-      "active": 0,
+      "score": 4.6994,
+      "count": 8,
+      "active": 1,
       "closed": 7,
       "uncertain": 0,
       "retired": 0
@@ -75,6 +75,15 @@
       "count": 1,
       "active": 0,
       "closed": 1,
+      "uncertain": 0,
+      "retired": 0
+    },
+    {
+      "name": "Antiy-AVL",
+      "score": 0.1135,
+      "count": 1,
+      "active": 1,
+      "closed": 0,
       "uncertain": 0,
       "retired": 0
     }
@@ -103,13 +112,6 @@
     },
     {
       "file_id": "F-5393a814",
-      "engine": "DeepInstinct",
-      "result": "MALICIOUS",
-      "since": "2026-10-30T12:02:36+09:00",
-      "uncertain": false
-    },
-    {
-      "file_id": "F-5393a814",
       "engine": "Elastic",
       "result": "malicious (high confidence)",
       "since": "2026-10-30T12:02:36+09:00",
@@ -120,6 +122,20 @@
       "engine": "SentinelOne",
       "result": "Static AI - Suspicious Archive",
       "since": "2026-10-30T12:02:36+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-5393a814",
+      "engine": "Kingsoft",
+      "result": "malware.kb.a.999",
+      "since": "2026-11-07T12:21:42+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-f1d33156",
+      "engine": "Antiy-AVL",
+      "result": "GrayWare[AdWare]/Win32.Caypnamer",
+      "since": "2026-11-08T00:17:13+09:00",
       "uncertain": false
     }
   ]

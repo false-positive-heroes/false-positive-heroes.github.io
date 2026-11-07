@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-07T20:43:05+09:00",
+  "generated": "2026-11-08T05:51:59+09:00",
   "since": "2022-11-03T02:35:29+09:00",
-  "cutoff": "2026-11-07T18:00:36+09:00",
-  "scanned_through": "2026-10-31T04:04:30+09:00",
+  "cutoff": "2026-11-08T03:00:38+09:00",
+  "scanned_through": "2026-11-01T00:00:22+09:00",
   "files": 57,
   "periods": [
     {
@@ -117,8 +117,8 @@
       "detected": "2026-10-30T12:02:36+09:00",
       "detected_total": 68,
       "last": "2026-11-07T09:00:21+09:00",
-      "released": null,
-      "released_total": null,
+      "released": "2026-11-07T12:21:42+09:00",
+      "released_total": 58,
       "confirmed": null,
       "retired": null
     },
@@ -129,7 +129,7 @@
       "first": true,
       "detected": "2026-10-30T12:02:36+09:00",
       "detected_total": 68,
-      "last": "2026-11-07T09:00:21+09:00",
+      "last": "2026-11-08T03:00:38+09:00",
       "released": null,
       "released_total": null,
       "confirmed": null,
@@ -168,7 +168,7 @@
       "first": true,
       "detected": "2026-10-30T12:02:36+09:00",
       "detected_total": 68,
-      "last": "2026-11-07T09:00:21+09:00",
+      "last": "2026-11-08T03:00:38+09:00",
       "released": null,
       "released_total": null,
       "confirmed": null,
@@ -292,13 +292,26 @@
       "retired": null
     },
     {
+      "file_id": "F-5393a814",
+      "engine": "Kingsoft",
+      "result": "malware.kb.a.999",
+      "first": false,
+      "detected": "2026-11-07T12:21:42+09:00",
+      "detected_total": 58,
+      "last": "2026-11-08T03:00:38+09:00",
+      "released": null,
+      "released_total": null,
+      "confirmed": null,
+      "retired": null
+    },
+    {
       "file_id": "F-bc89365f",
       "engine": "DeepInstinct",
       "result": "MALICIOUS",
       "first": true,
       "detected": "2026-10-30T12:00:54+09:00",
       "detected_total": 67,
-      "last": "2026-11-07T09:00:04+09:00",
+      "last": "2026-11-07T18:00:03+09:00",
       "released": null,
       "released_total": null,
       "confirmed": null,
@@ -311,7 +324,7 @@
       "first": true,
       "detected": "2026-10-30T12:00:54+09:00",
       "detected_total": 67,
-      "last": "2026-11-07T09:00:04+09:00",
+      "last": "2026-11-07T18:00:03+09:00",
       "released": null,
       "released_total": null,
       "confirmed": null,
@@ -428,9 +441,22 @@
       "first": false,
       "detected": "2026-10-31T18:00:52+09:00",
       "detected_total": 68,
-      "last": "2026-10-31T18:00:52+09:00",
-      "released": "2026-10-31T21:00:54+09:00",
-      "released_total": 63,
+      "last": "2026-11-08T00:17:13+09:00",
+      "released": "2026-11-08T03:00:05+09:00",
+      "released_total": 45,
+      "confirmed": null,
+      "retired": null
+    },
+    {
+      "file_id": "F-f1d33156",
+      "engine": "Antiy-AVL",
+      "result": "GrayWare[AdWare]/Win32.Caypnamer",
+      "first": false,
+      "detected": "2026-11-08T00:17:13+09:00",
+      "detected_total": 65,
+      "last": "2026-11-08T03:00:05+09:00",
+      "released": null,
+      "released_total": null,
       "confirmed": null,
       "retired": null
     },
@@ -471,7 +497,7 @@
       "released": "2026-10-30T00:00:20+09:00",
       "released_total": 62,
       "confirmed": "2026-11-06T12:39:22+09:00",
-      "retired": null
+      "retired": "2026-11-06T12:39:22+09:00"
     },
     {
       "file_id": "F-9ba48774",
