@@ -2,13 +2,13 @@
   "month": "2026-11",
   "status": "provisional",
   "since": "2026-11-01T00:00:00+09:00",
-  "cutoff": "2026-11-07T06:00:40+09:00",
+  "cutoff": "2026-11-07T09:00:38+09:00",
   "files": 57,
   "methodVersion": 2,
   "engines": [
     {
       "name": "Elastic",
-      "score": 18.0402,
+      "score": 18.2902,
       "count": 4,
       "active": 2,
       "closed": 2,
@@ -17,7 +17,7 @@
     },
     {
       "name": "MaxSecure",
-      "score": 16.2512,
+      "score": 16.5011,
       "count": 4,
       "active": 0,
       "closed": 2,
@@ -26,7 +26,7 @@
     },
     {
       "name": "DeepInstinct",
-      "score": 12.5009,
+      "score": 12.7509,
       "count": 2,
       "active": 2,
       "closed": 0,
@@ -35,7 +35,7 @@
     },
     {
       "name": "ClamAV",
-      "score": 6.2505,
+      "score": 6.3754,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -44,7 +44,7 @@
     },
     {
       "name": "SentinelOne",
-      "score": 6.2505,
+      "score": 6.3754,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -53,7 +53,7 @@
     },
     {
       "name": "TrellixENS",
-      "score": 6.2505,
+      "score": 6.3754,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -62,10 +62,10 @@
     },
     {
       "name": "Kingsoft",
-      "score": 3.9643,
+      "score": 4.0891,
       "count": 7,
-      "active": 1,
-      "closed": 6,
+      "active": 0,
+      "closed": 7,
       "uncertain": 0,
       "retired": 0
     },
@@ -120,13 +120,6 @@
       "engine": "SentinelOne",
       "result": "Static AI - Suspicious Archive",
       "since": "2026-10-30T12:02:36+09:00",
-      "uncertain": false
-    },
-    {
-      "file_id": "F-5393a814",
-      "engine": "Kingsoft",
-      "result": "malware.kb.a.999",
-      "since": "2026-11-07T00:18:02+09:00",
       "uncertain": false
     }
   ]
