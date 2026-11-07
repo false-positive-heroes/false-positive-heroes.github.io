@@ -46,13 +46,6 @@
       "result": "BScope.Trojan.Wacatac"
     },
     {
-      "time": "2026-10-04T19:47:02+09:00",
-      "type": "detected",
-      "file_id": "F-c1569f3c",
-      "engine": "Sophos",
-      "result": "Generic ML PUA (PUA)"
-    },
-    {
       "time": "2026-10-04T19:47:45+09:00",
       "type": "detected",
       "file_id": "F-39fd9b3f",
@@ -105,22 +98,8 @@
       "time": "2026-10-04T19:52:18+09:00",
       "type": "detected",
       "file_id": "F-1771fedd",
-      "engine": "alibabacloud",
-      "result": "Riskware:Multi/WinDivert.gyf"
-    },
-    {
-      "time": "2026-10-04T19:52:18+09:00",
-      "type": "detected",
-      "file_id": "F-1771fedd",
       "engine": "Elastic",
       "result": "Windows.Rootkit.WinDivert"
-    },
-    {
-      "time": "2026-10-04T19:52:18+09:00",
-      "type": "detected",
-      "file_id": "F-1771fedd",
-      "engine": "Lionic",
-      "result": "Riskware.Multi.WinDivert.1!c"
     },
     {
       "time": "2026-10-04T19:52:18+09:00",
@@ -154,36 +133,8 @@
       "time": "2026-10-04T19:52:55+09:00",
       "type": "detected",
       "file_id": "F-fec85e21",
-      "engine": "ESET-NOD32",
-      "result": "Win32/WinDivert.A potentially unsafe application"
-    },
-    {
-      "time": "2026-10-04T19:52:55+09:00",
-      "type": "detected",
-      "file_id": "F-fec85e21",
-      "engine": "Lionic",
-      "result": "Riskware.ZIP.Generic.1!c"
-    },
-    {
-      "time": "2026-10-04T19:52:55+09:00",
-      "type": "detected",
-      "file_id": "F-fec85e21",
       "engine": "Microsoft",
       "result": "Trojan:Win32/Kepavll!rfn"
-    },
-    {
-      "time": "2026-10-04T19:52:55+09:00",
-      "type": "detected",
-      "file_id": "F-fec85e21",
-      "engine": "Panda",
-      "result": "PUP/NetUtils"
-    },
-    {
-      "time": "2026-10-04T19:52:55+09:00",
-      "type": "detected",
-      "file_id": "F-fec85e21",
-      "engine": "VBA32",
-      "result": "Riskware.Win32.WinDivert"
     },
     {
       "time": "2026-10-04T19:53:47+09:00",
@@ -207,5 +158,5 @@
       "result": "Trojan.Malware.300983.susgen"
     }
   ],
-  "ongoing": 29
+  "ongoing": 22
 }

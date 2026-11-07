@@ -18,25 +18,11 @@
       "result": "GenericRXWU-GS!E2A4CEFDEC99"
     },
     {
-      "time": "2026-10-31T12:23:05+09:00",
-      "type": "released",
-      "file_id": "F-19ce23fa",
-      "engine": "MaxSecure",
-      "result": "Trojan.Malware.300983.susgen"
-    },
-    {
       "time": "2026-10-31T12:23:38+09:00",
       "type": "detected",
       "file_id": "F-5393a814",
       "engine": "Kingsoft",
       "result": "malware.kb.a.999"
-    },
-    {
-      "time": "2026-10-31T15:00:36+09:00",
-      "type": "detected",
-      "file_id": "F-19ce23fa",
-      "engine": "MaxSecure",
-      "result": "Trojan.Malware.300983.susgen"
     },
     {
       "time": "2026-10-31T15:00:53+09:00",

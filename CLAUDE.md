@@ -18,6 +18,8 @@ There are no tests or linters. To preview, serve the repo root over HTTP (the pa
 
 `aggregate.mjs` skips daily/monthly files that already exist. To regenerate one after a rule change, delete it first — but only before it has been published. Once published, never delete or rewrite it; record the change in that month's `corrections`.
 
+The record starts on 2026-10-04, the collector's first scan; there is no data before it. One exception to the rule above (owner decision, 2026-11-08): a file's first lookup had returned a VirusTotal analysis from 2022, and the time up to the next scan four years later was counted as one continuous detection. That produced 47 fake months (2022-11 to 2026-09), daily files from 2022-11-03, and inflated 2026-10. They were deleted, and 2026-10 and the dailies were regenerated. The collector now ignores scans dated before its start.
+
 ## Architecture
 
 Data flows one way: **collector server → `fetch` → `aggregate` → `build` → Pages**.

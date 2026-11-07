@@ -18,13 +18,6 @@
       "result": "malware.kb.a.778"
     },
     {
-      "time": "2026-10-08T18:00:05+09:00",
-      "type": "uncertain",
-      "file_id": "F-72d4e563",
-      "engine": "Malwarebytes",
-      "result": "Malware.AI.1662005751"
-    },
-    {
       "time": "2026-10-08T21:00:05+09:00",
       "type": "released",
       "file_id": "F-9ba48774",
