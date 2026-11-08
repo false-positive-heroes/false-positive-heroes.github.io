@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-01",
+  "cutoff": "2026-11-02T00:00:00+09:00",
+  "complete": true,
+  "events": [
+    {
+      "time": "2026-11-01T00:17:12+09:00",
+      "type": "released",
+      "file_id": "F-f51429e1",
+      "engine": "Elastic",
+      "result": "Windows.Rootkit.WinDivert"
+    },
+    {
+      "time": "2026-11-01T03:00:37+09:00",
+      "type": "detected",
+      "file_id": "F-5393a814",
+      "engine": "Kingsoft",
+      "result": "malware.kb.a.999"
+    },
+    {
+      "time": "2026-11-01T12:15:33+09:00",
+      "type": "detected",
+      "file_id": "F-9ba48774",
+      "engine": "Malwarebytes",
+      "result": "MachineLearning/Anomalous.93%"
+    }
+  ],
+  "ongoing": 13
+}

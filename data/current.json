@@ -2,22 +2,22 @@
   "month": "2026-11",
   "status": "provisional",
   "since": "2026-11-01T00:00:00+09:00",
-  "cutoff": "2026-11-08T12:18:03+09:00",
+  "cutoff": "2026-11-09T03:01:10+09:00",
   "files": 57,
   "methodVersion": 2,
   "engines": [
     {
       "name": "Elastic",
-      "score": 20.5644,
-      "count": 4,
-      "active": 2,
+      "score": 22.4053,
+      "count": 5,
+      "active": 3,
       "closed": 2,
       "uncertain": 0,
       "retired": 0
     },
     {
       "name": "MaxSecure",
-      "score": 18.7753,
+      "score": 20.0019,
       "count": 4,
       "active": 1,
       "closed": 2,
@@ -26,7 +26,7 @@
     },
     {
       "name": "DeepInstinct",
-      "score": 15.0251,
+      "score": 16.2516,
       "count": 2,
       "active": 2,
       "closed": 0,
@@ -35,7 +35,7 @@
     },
     {
       "name": "ClamAV",
-      "score": 7.5125,
+      "score": 8.1258,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -44,7 +44,7 @@
     },
     {
       "name": "SentinelOne",
-      "score": 7.5125,
+      "score": 8.1258,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -53,7 +53,7 @@
     },
     {
       "name": "TrellixENS",
-      "score": 7.5125,
+      "score": 8.1258,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -62,10 +62,10 @@
     },
     {
       "name": "Kingsoft",
-      "score": 5.0865,
-      "count": 8,
+      "score": 5.5865,
+      "count": 9,
       "active": 1,
-      "closed": 7,
+      "closed": 8,
       "uncertain": 0,
       "retired": 0
     },
@@ -80,7 +80,7 @@
     },
     {
       "name": "Antiy-AVL",
-      "score": 0.5006,
+      "score": 1.1139,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -139,17 +139,24 @@
       "uncertain": false
     },
     {
-      "file_id": "F-5393a814",
-      "engine": "Kingsoft",
-      "result": "malware.kb.a.999",
-      "since": "2026-11-07T12:21:42+09:00",
-      "uncertain": false
-    },
-    {
       "file_id": "F-f1d33156",
       "engine": "Antiy-AVL",
       "result": "GrayWare[AdWare]/Win32.Caypnamer",
       "since": "2026-11-08T00:17:13+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-f51429e1",
+      "engine": "Elastic",
+      "result": "Windows.Rootkit.WinDivert",
+      "since": "2026-11-08T12:16:24+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-5393a814",
+      "engine": "Kingsoft",
+      "result": "malware.kb.a.999",
+      "since": "2026-11-09T03:00:53+09:00",
       "uncertain": false
     }
   ]
