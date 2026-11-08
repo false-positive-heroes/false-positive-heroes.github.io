@@ -2,13 +2,13 @@
   "month": "2026-11",
   "status": "provisional",
   "since": "2026-11-01T00:00:00+09:00",
-  "cutoff": "2026-11-08T09:00:38+09:00",
+  "cutoff": "2026-11-08T12:18:03+09:00",
   "files": 57,
   "methodVersion": 2,
   "engines": [
     {
       "name": "Elastic",
-      "score": 20.2902,
+      "score": 20.5644,
       "count": 4,
       "active": 2,
       "closed": 2,
@@ -17,16 +17,16 @@
     },
     {
       "name": "MaxSecure",
-      "score": 18.5011,
+      "score": 18.7753,
       "count": 4,
-      "active": 0,
+      "active": 1,
       "closed": 2,
-      "uncertain": 2,
+      "uncertain": 1,
       "retired": 0
     },
     {
       "name": "DeepInstinct",
-      "score": 14.7509,
+      "score": 15.0251,
       "count": 2,
       "active": 2,
       "closed": 0,
@@ -35,7 +35,7 @@
     },
     {
       "name": "ClamAV",
-      "score": 7.3754,
+      "score": 7.5125,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -44,7 +44,7 @@
     },
     {
       "name": "SentinelOne",
-      "score": 7.3754,
+      "score": 7.5125,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -53,7 +53,7 @@
     },
     {
       "name": "TrellixENS",
-      "score": 7.3754,
+      "score": 7.5125,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -62,7 +62,7 @@
     },
     {
       "name": "Kingsoft",
-      "score": 4.9494,
+      "score": 5.0865,
       "count": 8,
       "active": 1,
       "closed": 7,
@@ -80,7 +80,7 @@
     },
     {
       "name": "Antiy-AVL",
-      "score": 0.3635,
+      "score": 0.5006,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -129,6 +129,13 @@
       "engine": "SentinelOne",
       "result": "Static AI - Suspicious Archive",
       "since": "2026-10-30T12:02:36+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-f1d33156",
+      "engine": "MaxSecure",
+      "result": "Trojan.Malware.300983.susgen",
+      "since": "2026-10-31T18:00:52+09:00",
       "uncertain": false
     },
     {
