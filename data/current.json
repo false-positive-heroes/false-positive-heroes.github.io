@@ -2,13 +2,13 @@
   "month": "2026-11",
   "status": "provisional",
   "since": "2026-11-01T00:00:00+09:00",
-  "cutoff": "2026-11-08T06:00:53+09:00",
+  "cutoff": "2026-11-08T09:00:38+09:00",
   "files": 57,
   "methodVersion": 2,
   "engines": [
     {
       "name": "Elastic",
-      "score": 20.0405,
+      "score": 20.2902,
       "count": 4,
       "active": 2,
       "closed": 2,
@@ -17,7 +17,7 @@
     },
     {
       "name": "MaxSecure",
-      "score": 18.2515,
+      "score": 18.5011,
       "count": 4,
       "active": 0,
       "closed": 2,
@@ -26,7 +26,7 @@
     },
     {
       "name": "DeepInstinct",
-      "score": 14.5012,
+      "score": 14.7509,
       "count": 2,
       "active": 2,
       "closed": 0,
@@ -35,7 +35,7 @@
     },
     {
       "name": "ClamAV",
-      "score": 7.2506,
+      "score": 7.3754,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -44,7 +44,7 @@
     },
     {
       "name": "SentinelOne",
-      "score": 7.2506,
+      "score": 7.3754,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -53,7 +53,7 @@
     },
     {
       "name": "TrellixENS",
-      "score": 7.2506,
+      "score": 7.3754,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -62,7 +62,7 @@
     },
     {
       "name": "Kingsoft",
-      "score": 4.8246,
+      "score": 4.9494,
       "count": 8,
       "active": 1,
       "closed": 7,
@@ -80,7 +80,7 @@
     },
     {
       "name": "Antiy-AVL",
-      "score": 0.2387,
+      "score": 0.3635,
       "count": 1,
       "active": 1,
       "closed": 0,
