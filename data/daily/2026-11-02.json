@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-02",
+  "cutoff": "2026-11-03T00:00:00+09:00",
+  "complete": true,
+  "events": [
+    {
+      "time": "2026-11-02T06:00:37+09:00",
+      "type": "uncertain",
+      "file_id": "F-19ce23fa",
+      "engine": "MaxSecure",
+      "result": "Trojan.Malware.300983.susgen"
+    },
+    {
+      "time": "2026-11-02T18:00:21+09:00",
+      "type": "released",
+      "file_id": "F-5393a814",
+      "engine": "Kingsoft",
+      "result": "malware.kb.a.999"
+    }
+  ],
+  "ongoing": 12
+}
