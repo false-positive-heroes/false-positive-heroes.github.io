@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-03",
+  "cutoff": "2026-11-04T00:00:00+09:00",
+  "complete": true,
+  "events": [
+    {
+      "time": "2026-11-03T03:00:20+09:00",
+      "type": "detected",
+      "file_id": "F-5393a814",
+      "engine": "Kingsoft",
+      "result": "malware.kb.a.999"
+    },
+    {
+      "time": "2026-11-03T06:00:22+09:00",
+      "type": "released",
+      "file_id": "F-5393a814",
+      "engine": "Kingsoft",
+      "result": "malware.kb.a.999"
+    },
+    {
+      "time": "2026-11-03T21:00:22+09:00",
+      "type": "detected",
+      "file_id": "F-5393a814",
+      "engine": "Kingsoft",
+      "result": "malware.kb.a.999"
+    }
+  ],
+  "ongoing": 13
+}
