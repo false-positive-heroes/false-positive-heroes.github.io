@@ -2,13 +2,13 @@
   "month": "2026-11",
   "status": "provisional",
   "since": "2026-11-01T00:00:00+09:00",
-  "cutoff": "2026-11-11T21:00:38+09:00",
+  "cutoff": "2026-11-12T06:01:11+09:00",
   "files": 57,
   "methodVersion": 2,
   "engines": [
     {
       "name": "Elastic",
-      "score": 30.6542,
+      "score": 31.7804,
       "count": 5,
       "active": 3,
       "closed": 2,
@@ -17,7 +17,7 @@
     },
     {
       "name": "MaxSecure",
-      "score": 25.5011,
+      "score": 26.2519,
       "count": 4,
       "active": 1,
       "closed": 2,
@@ -26,7 +26,7 @@
     },
     {
       "name": "DeepInstinct",
-      "score": 21.7509,
+      "score": 22.5016,
       "count": 2,
       "active": 2,
       "closed": 0,
@@ -35,7 +35,7 @@
     },
     {
       "name": "ClamAV",
-      "score": 10.8754,
+      "score": 11.2508,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -44,7 +44,7 @@
     },
     {
       "name": "SentinelOne",
-      "score": 10.8754,
+      "score": 11.2508,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -53,7 +53,7 @@
     },
     {
       "name": "TrellixENS",
-      "score": 10.8754,
+      "score": 11.2508,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -62,7 +62,7 @@
     },
     {
       "name": "Kingsoft",
-      "score": 8.3361,
+      "score": 8.7115,
       "count": 9,
       "active": 1,
       "closed": 8,
@@ -71,11 +71,20 @@
     },
     {
       "name": "Antiy-AVL",
-      "score": 3.8635,
+      "score": 4.2389,
       "count": 1,
       "active": 1,
       "closed": 0,
       "uncertain": 0,
+      "retired": 0
+    },
+    {
+      "name": "Microsoft",
+      "score": 3.0003,
+      "count": 2,
+      "active": 0,
+      "closed": 0,
+      "uncertain": 2,
       "retired": 0
     },
     {
@@ -85,15 +94,6 @@
       "active": 0,
       "closed": 1,
       "uncertain": 0,
-      "retired": 0
-    },
-    {
-      "name": "Microsoft",
-      "score": 2.2496,
-      "count": 2,
-      "active": 0,
-      "closed": 0,
-      "uncertain": 2,
       "retired": 0
     }
   ],
