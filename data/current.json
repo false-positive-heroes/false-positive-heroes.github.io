@@ -2,22 +2,22 @@
   "month": "2026-11",
   "status": "provisional",
   "since": "2026-11-01T00:00:00+09:00",
-  "cutoff": "2026-11-12T06:01:11+09:00",
+  "cutoff": "2026-11-12T18:00:38+09:00",
   "files": 57,
   "methodVersion": 2,
   "engines": [
     {
       "name": "Elastic",
-      "score": 31.7804,
+      "score": 33.2792,
       "count": 5,
-      "active": 3,
+      "active": 2,
       "closed": 2,
-      "uncertain": 0,
+      "uncertain": 1,
       "retired": 0
     },
     {
       "name": "MaxSecure",
-      "score": 26.2519,
+      "score": 27.2511,
       "count": 4,
       "active": 1,
       "closed": 2,
@@ -26,7 +26,7 @@
     },
     {
       "name": "DeepInstinct",
-      "score": 22.5016,
+      "score": 23.5009,
       "count": 2,
       "active": 2,
       "closed": 0,
@@ -35,7 +35,7 @@
     },
     {
       "name": "ClamAV",
-      "score": 11.2508,
+      "score": 11.7504,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -44,7 +44,7 @@
     },
     {
       "name": "SentinelOne",
-      "score": 11.2508,
+      "score": 11.7504,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -53,7 +53,7 @@
     },
     {
       "name": "TrellixENS",
-      "score": 11.2508,
+      "score": 11.7504,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -62,7 +62,7 @@
     },
     {
       "name": "Kingsoft",
-      "score": 8.7115,
+      "score": 9.2111,
       "count": 9,
       "active": 1,
       "closed": 8,
@@ -71,7 +71,7 @@
     },
     {
       "name": "Antiy-AVL",
-      "score": 4.2389,
+      "score": 4.7385,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -80,7 +80,7 @@
     },
     {
       "name": "Microsoft",
-      "score": 3.0003,
+      "score": 3.9996,
       "count": 2,
       "active": 0,
       "closed": 0,
@@ -152,13 +152,6 @@
       "engine": "Antiy-AVL",
       "result": "GrayWare[AdWare]/Win32.Caypnamer",
       "since": "2026-11-08T00:17:13+09:00",
-      "uncertain": false
-    },
-    {
-      "file_id": "F-f51429e1",
-      "engine": "Elastic",
-      "result": "Windows.Rootkit.WinDivert",
-      "since": "2026-11-08T12:16:24+09:00",
       "uncertain": false
     },
     {
