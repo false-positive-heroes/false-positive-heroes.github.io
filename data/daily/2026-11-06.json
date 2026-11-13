@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-06",
+  "cutoff": "2026-11-07T00:00:00+09:00",
+  "complete": true,
+  "events": [
+    {
+      "time": "2026-11-06T03:00:21+09:00",
+      "type": "released",
+      "file_id": "F-5393a814",
+      "engine": "Kingsoft",
+      "result": "malware.kb.a.999"
+    },
+    {
+      "time": "2026-11-06T12:39:22+09:00",
+      "type": "released",
+      "file_id": "F-f325003c",
+      "engine": "Elastic",
+      "result": "malicious (high confidence)"
+    }
+  ],
+  "ongoing": 9
+}
