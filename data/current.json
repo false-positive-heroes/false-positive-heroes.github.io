@@ -2,40 +2,40 @@
   "month": "2026-11",
   "status": "provisional",
   "since": "2026-11-01T00:00:00+09:00",
-  "cutoff": "2026-11-14T15:00:04+09:00",
+  "cutoff": "2026-11-15T06:01:28+09:00",
   "files": 57,
   "methodVersion": 2,
   "engines": [
     {
       "name": "Elastic",
-      "score": 36.653,
-      "count": 5,
-      "active": 2,
+      "score": 38.1558,
+      "count": 6,
+      "active": 3,
       "closed": 2,
       "uncertain": 0,
       "retired": 1
     },
     {
       "name": "MaxSecure",
-      "score": 31.0004,
+      "score": 32.2523,
       "count": 4,
-      "active": 1,
+      "active": 2,
       "closed": 2,
-      "uncertain": 1,
+      "uncertain": 0,
       "retired": 0
     },
     {
       "name": "DeepInstinct",
-      "score": 27.1407,
+      "score": 28.3926,
       "count": 3,
-      "active": 1,
+      "active": 2,
       "closed": 1,
-      "uncertain": 1,
+      "uncertain": 0,
       "retired": 0
     },
     {
       "name": "SentinelOne",
-      "score": 13.625,
+      "score": 14.251,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -44,7 +44,7 @@
     },
     {
       "name": "TrellixENS",
-      "score": 13.625,
+      "score": 14.251,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -53,7 +53,7 @@
     },
     {
       "name": "ClamAV",
-      "score": 13.3754,
+      "score": 14.0014,
       "count": 2,
       "active": 1,
       "closed": 0,
@@ -62,7 +62,7 @@
     },
     {
       "name": "Kingsoft",
-      "score": 11.0857,
+      "score": 11.7117,
       "count": 9,
       "active": 1,
       "closed": 8,
@@ -71,7 +71,7 @@
     },
     {
       "name": "Antiy-AVL",
-      "score": 6.6131,
+      "score": 7.2391,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -80,7 +80,7 @@
     },
     {
       "name": "Microsoft",
-      "score": 6.5288,
+      "score": 7.1547,
       "count": 2,
       "active": 0,
       "closed": 1,
@@ -103,6 +103,20 @@
       "engine": "Elastic",
       "result": "malicious (moderate confidence)",
       "since": "2026-10-30T12:00:54+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-19ce23fa",
+      "engine": "MaxSecure",
+      "result": "Trojan.Malware.300983.susgen",
+      "since": "2026-10-30T12:01:29+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-5393a814",
+      "engine": "DeepInstinct",
+      "result": "MALICIOUS",
+      "since": "2026-10-30T12:02:36+09:00",
       "uncertain": false
     },
     {
@@ -152,6 +166,13 @@
       "engine": "ClamAV",
       "result": "Win.Trojan.DirtJumper-2",
       "since": "2026-11-14T12:00:23+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-579dd597",
+      "engine": "Elastic",
+      "result": "Windows.Rootkit.WinDivert",
+      "since": "2026-11-15T00:00:22+09:00",
       "uncertain": false
     }
   ]

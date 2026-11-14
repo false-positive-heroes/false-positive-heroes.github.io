@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-08",
+  "cutoff": "2026-11-09T00:00:00+09:00",
+  "complete": true,
+  "events": [
+    {
+      "time": "2026-11-08T00:17:13+09:00",
+      "type": "detected",
+      "file_id": "F-f1d33156",
+      "engine": "Antiy-AVL",
+      "result": "GrayWare[AdWare]/Win32.Caypnamer"
+    },
+    {
+      "time": "2026-11-08T12:16:24+09:00",
+      "type": "detected",
+      "file_id": "F-f51429e1",
+      "engine": "Elastic",
+      "result": "Windows.Rootkit.WinDivert"
+    }
+  ],
+  "ongoing": 12
+}
