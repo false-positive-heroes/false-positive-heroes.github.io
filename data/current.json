@@ -2,13 +2,13 @@
   "month": "2026-11",
   "status": "provisional",
   "since": "2026-11-01T00:00:00+09:00",
-  "cutoff": "2026-11-15T18:00:36+09:00",
+  "cutoff": "2026-11-16T06:01:11+09:00",
   "files": 57,
   "methodVersion": 2,
   "engines": [
     {
       "name": "Elastic",
-      "score": 39.6539,
+      "score": 41.1552,
       "count": 6,
       "active": 3,
       "closed": 2,
@@ -17,7 +17,7 @@
     },
     {
       "name": "MaxSecure",
-      "score": 33.2511,
+      "score": 34.2519,
       "count": 4,
       "active": 1,
       "closed": 2,
@@ -26,16 +26,16 @@
     },
     {
       "name": "DeepInstinct",
-      "score": 29.3914,
+      "score": 30.3922,
       "count": 3,
-      "active": 1,
+      "active": 2,
       "closed": 1,
-      "uncertain": 1,
+      "uncertain": 0,
       "retired": 0
     },
     {
       "name": "SentinelOne",
-      "score": 14.7504,
+      "score": 15.2508,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -44,7 +44,7 @@
     },
     {
       "name": "TrellixENS",
-      "score": 14.7504,
+      "score": 15.2508,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -53,7 +53,7 @@
     },
     {
       "name": "ClamAV",
-      "score": 14.5008,
+      "score": 15.0012,
       "count": 2,
       "active": 1,
       "closed": 0,
@@ -62,16 +62,16 @@
     },
     {
       "name": "Kingsoft",
-      "score": 12.2111,
-      "count": 9,
-      "active": 0,
-      "closed": 8,
-      "uncertain": 1,
+      "score": 13.2448,
+      "count": 10,
+      "active": 1,
+      "closed": 9,
+      "uncertain": 0,
       "retired": 0
     },
     {
       "name": "Antiy-AVL",
-      "score": 7.7385,
+      "score": 8.2389,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -80,7 +80,7 @@
     },
     {
       "name": "Microsoft",
-      "score": 7.6541,
+      "score": 8.1545,
       "count": 2,
       "active": 0,
       "closed": 1,
@@ -89,10 +89,10 @@
     },
     {
       "name": "Malwarebytes",
-      "score": 2.5011,
-      "count": 1,
+      "score": 3.0344,
+      "count": 2,
       "active": 0,
-      "closed": 1,
+      "closed": 2,
       "uncertain": 0,
       "retired": 0
     }
@@ -103,6 +103,13 @@
       "engine": "Elastic",
       "result": "malicious (moderate confidence)",
       "since": "2026-10-30T12:00:54+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-5393a814",
+      "engine": "DeepInstinct",
+      "result": "MALICIOUS",
+      "since": "2026-10-30T12:02:36+09:00",
       "uncertain": false
     },
     {
@@ -131,6 +138,13 @@
       "engine": "Antiy-AVL",
       "result": "GrayWare[AdWare]/Win32.Caypnamer",
       "since": "2026-11-08T00:17:13+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-5393a814",
+      "engine": "Kingsoft",
+      "result": "malware.kb.a.999",
+      "since": "2026-11-09T03:00:53+09:00",
       "uncertain": false
     },
     {
