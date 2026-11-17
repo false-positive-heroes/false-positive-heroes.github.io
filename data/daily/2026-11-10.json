@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-10",
+  "cutoff": "2026-11-11T00:00:00+09:00",
+  "complete": true,
+  "events": [
+    {
+      "time": "2026-11-10T12:00:57+09:00",
+      "type": "detected",
+      "file_id": "F-70e26230",
+      "engine": "Microsoft",
+      "result": "Trojan:Script/Wacatac.B!ml"
+    }
+  ],
+  "ongoing": 13
+}
