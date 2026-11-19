@@ -2,22 +2,22 @@
   "month": "2026-11",
   "status": "provisional",
   "since": "2026-11-01T00:00:00+09:00",
-  "cutoff": "2026-11-19T21:00:53+09:00",
+  "cutoff": "2026-11-20T06:00:39+09:00",
   "files": 57,
   "methodVersion": 2,
   "engines": [
     {
       "name": "Elastic",
-      "score": 51.5398,
+      "score": 52.5389,
       "count": 7,
-      "active": 3,
+      "active": 2,
       "closed": 2,
       "uncertain": 0,
-      "retired": 2
+      "retired": 3
     },
     {
       "name": "MaxSecure",
-      "score": 41.5015,
+      "score": 42.2512,
       "count": 4,
       "active": 0,
       "closed": 2,
@@ -26,7 +26,7 @@
     },
     {
       "name": "DeepInstinct",
-      "score": 37.6418,
+      "score": 38.3915,
       "count": 3,
       "active": 2,
       "closed": 1,
@@ -35,7 +35,7 @@
     },
     {
       "name": "SentinelOne",
-      "score": 18.8756,
+      "score": 19.2505,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -44,7 +44,7 @@
     },
     {
       "name": "TrellixENS",
-      "score": 18.8756,
+      "score": 19.2505,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -53,7 +53,7 @@
     },
     {
       "name": "ClamAV",
-      "score": 18.0934,
+      "score": 18.4683,
       "count": 3,
       "active": 1,
       "closed": 0,
@@ -62,7 +62,7 @@
     },
     {
       "name": "Kingsoft",
-      "score": 16.8696,
+      "score": 17.2444,
       "count": 10,
       "active": 1,
       "closed": 9,
@@ -71,7 +71,7 @@
     },
     {
       "name": "Antiy-AVL",
-      "score": 11.8637,
+      "score": 12.2385,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -98,7 +98,7 @@
     },
     {
       "name": "VirIT",
-      "score": 1.8753,
+      "score": 2.2502,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -154,13 +154,6 @@
       "engine": "ClamAV",
       "result": "Win.Trojan.DirtJumper-2",
       "since": "2026-11-16T21:47:15+09:00",
-      "uncertain": false
-    },
-    {
-      "file_id": "F-fdae5c70",
-      "engine": "Elastic",
-      "result": "Windows.Rootkit.WinDivert",
-      "since": "2026-11-18T00:03:15+09:00",
       "uncertain": false
     }
   ]
