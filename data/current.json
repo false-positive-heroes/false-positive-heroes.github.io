@@ -2,13 +2,13 @@
   "month": "2026-11",
   "status": "provisional",
   "since": "2026-11-01T00:00:00+09:00",
-  "cutoff": "2026-11-19T06:00:54+09:00",
+  "cutoff": "2026-11-19T21:00:53+09:00",
   "files": 57,
   "methodVersion": 2,
   "engines": [
     {
       "name": "Elastic",
-      "score": 49.6648,
+      "score": 51.5398,
       "count": 7,
       "active": 3,
       "closed": 2,
@@ -17,7 +17,7 @@
     },
     {
       "name": "MaxSecure",
-      "score": 40.2515,
+      "score": 41.5015,
       "count": 4,
       "active": 0,
       "closed": 2,
@@ -26,7 +26,7 @@
     },
     {
       "name": "DeepInstinct",
-      "score": 36.3918,
+      "score": 37.6418,
       "count": 3,
       "active": 2,
       "closed": 1,
@@ -35,7 +35,7 @@
     },
     {
       "name": "SentinelOne",
-      "score": 18.2506,
+      "score": 18.8756,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -44,7 +44,7 @@
     },
     {
       "name": "TrellixENS",
-      "score": 18.2506,
+      "score": 18.8756,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -53,7 +53,7 @@
     },
     {
       "name": "ClamAV",
-      "score": 17.4684,
+      "score": 18.0934,
       "count": 3,
       "active": 1,
       "closed": 0,
@@ -62,7 +62,7 @@
     },
     {
       "name": "Kingsoft",
-      "score": 16.2446,
+      "score": 16.8696,
       "count": 10,
       "active": 1,
       "closed": 9,
@@ -71,7 +71,7 @@
     },
     {
       "name": "Antiy-AVL",
-      "score": 11.2387,
+      "score": 11.8637,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -80,12 +80,12 @@
     },
     {
       "name": "Microsoft",
-      "score": 11.1543,
+      "score": 5.3091,
       "count": 2,
       "active": 0,
       "closed": 1,
-      "uncertain": 1,
-      "retired": 0
+      "uncertain": 0,
+      "retired": 1
     },
     {
       "name": "Malwarebytes",
@@ -98,7 +98,7 @@
     },
     {
       "name": "VirIT",
-      "score": 1.2503,
+      "score": 1.8753,
       "count": 1,
       "active": 0,
       "closed": 0,
