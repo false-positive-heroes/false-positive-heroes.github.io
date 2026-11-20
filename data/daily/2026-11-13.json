@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-13",
+  "cutoff": "2026-11-14T00:00:00+09:00",
+  "complete": true,
+  "events": [
+    {
+      "time": "2026-11-13T09:43:15+09:00",
+      "type": "released",
+      "file_id": "F-c8430285",
+      "engine": "Microsoft",
+      "result": "Trojan:Script/Wacatac.B!ml"
+    },
+    {
+      "time": "2026-11-13T09:43:47+09:00",
+      "type": "retired",
+      "file_id": "F-70e26230",
+      "engine": "Microsoft",
+      "result": "Trojan:Script/Wacatac.B!ml"
+    }
+  ],
+  "ongoing": 11
+}

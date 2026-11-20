@@ -2,22 +2,22 @@
   "month": "2026-11",
   "status": "provisional",
   "since": "2026-11-01T00:00:00+09:00",
-  "cutoff": "2026-11-20T21:00:54+09:00",
+  "cutoff": "2026-11-21T06:01:11+09:00",
   "files": 57,
   "methodVersion": 2,
   "engines": [
     {
       "name": "Elastic",
-      "score": 54.1646,
+      "score": 55.0517,
       "count": 8,
-      "active": 3,
-      "closed": 2,
-      "uncertain": 0,
+      "active": 1,
+      "closed": 3,
+      "uncertain": 1,
       "retired": 3
     },
     {
       "name": "MaxSecure",
-      "score": 43.5015,
+      "score": 44.2519,
       "count": 4,
       "active": 0,
       "closed": 2,
@@ -26,16 +26,16 @@
     },
     {
       "name": "DeepInstinct",
-      "score": 39.6414,
-      "count": 3,
-      "active": 1,
+      "score": 40.2551,
+      "count": 4,
+      "active": 2,
       "closed": 2,
       "uncertain": 0,
       "retired": 0
     },
     {
       "name": "SentinelOne",
-      "score": 19.8756,
+      "score": 20.2508,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -44,7 +44,7 @@
     },
     {
       "name": "TrellixENS",
-      "score": 19.8756,
+      "score": 20.2508,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -53,16 +53,16 @@
     },
     {
       "name": "ClamAV",
-      "score": 18.9683,
-      "count": 3,
-      "active": 0,
+      "score": 19.2188,
+      "count": 4,
+      "active": 1,
       "closed": 0,
       "uncertain": 0,
       "retired": 3
     },
     {
       "name": "Kingsoft",
-      "score": 17.8696,
+      "score": 18.2448,
       "count": 10,
       "active": 1,
       "closed": 9,
@@ -71,7 +71,7 @@
     },
     {
       "name": "Antiy-AVL",
-      "score": 12.8637,
+      "score": 13.2389,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -88,6 +88,15 @@
       "retired": 1
     },
     {
+      "name": "VirIT",
+      "score": 3.2505,
+      "count": 1,
+      "active": 0,
+      "closed": 0,
+      "uncertain": 1,
+      "retired": 0
+    },
+    {
       "name": "Malwarebytes",
       "score": 3.0344,
       "count": 2,
@@ -95,36 +104,13 @@
       "closed": 2,
       "uncertain": 0,
       "retired": 0
-    },
-    {
-      "name": "VirIT",
-      "score": 2.8753,
-      "count": 1,
-      "active": 0,
-      "closed": 0,
-      "uncertain": 1,
-      "retired": 0
     }
   ],
   "ongoing": [
     {
-      "file_id": "F-bc89365f",
-      "engine": "Elastic",
-      "result": "malicious (moderate confidence)",
-      "since": "2026-10-30T12:00:54+09:00",
-      "uncertain": false
-    },
-    {
       "file_id": "F-5393a814",
       "engine": "DeepInstinct",
       "result": "MALICIOUS",
-      "since": "2026-10-30T12:02:36+09:00",
-      "uncertain": false
-    },
-    {
-      "file_id": "F-5393a814",
-      "engine": "Elastic",
-      "result": "malicious (high confidence)",
       "since": "2026-10-30T12:02:36+09:00",
       "uncertain": false
     },
@@ -147,6 +133,20 @@
       "engine": "Elastic",
       "result": "Windows.Rootkit.WinDivert",
       "since": "2026-11-20T12:00:21+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-6e8b6a68",
+      "engine": "ClamAV",
+      "result": "Win.Trojan.DirtJumper-2",
+      "since": "2026-11-21T00:00:22+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-bc89365f",
+      "engine": "DeepInstinct",
+      "result": "MALICIOUS",
+      "since": "2026-11-21T00:17:47+09:00",
       "uncertain": false
     }
   ]
