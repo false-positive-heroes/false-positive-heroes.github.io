@@ -2,13 +2,13 @@
   "month": "2026-11",
   "status": "provisional",
   "since": "2026-11-01T00:00:00+09:00",
-  "cutoff": "2026-11-21T18:00:53+09:00",
+  "cutoff": "2026-11-22T06:00:39+09:00",
   "files": 57,
   "methodVersion": 2,
   "engines": [
     {
       "name": "Elastic",
-      "score": 56.0513,
+      "score": 57.051,
       "count": 8,
       "active": 1,
       "closed": 3,
@@ -17,7 +17,7 @@
     },
     {
       "name": "MaxSecure",
-      "score": 45.2515,
+      "score": 46.2512,
       "count": 4,
       "active": 0,
       "closed": 2,
@@ -26,7 +26,7 @@
     },
     {
       "name": "DeepInstinct",
-      "score": 41.2547,
+      "score": 42.2544,
       "count": 4,
       "active": 2,
       "closed": 2,
@@ -35,7 +35,7 @@
     },
     {
       "name": "SentinelOne",
-      "score": 20.7506,
+      "score": 21.2505,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -44,7 +44,7 @@
     },
     {
       "name": "TrellixENS",
-      "score": 20.7506,
+      "score": 21.2505,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -53,16 +53,16 @@
     },
     {
       "name": "ClamAV",
-      "score": 19.7186,
+      "score": 20.2184,
       "count": 4,
-      "active": 1,
+      "active": 0,
       "closed": 0,
-      "uncertain": 0,
+      "uncertain": 1,
       "retired": 3
     },
     {
       "name": "Kingsoft",
-      "score": 18.7446,
+      "score": 19.2444,
       "count": 10,
       "active": 1,
       "closed": 9,
@@ -71,7 +71,7 @@
     },
     {
       "name": "Antiy-AVL",
-      "score": 13.7387,
+      "score": 14.2385,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -89,7 +89,7 @@
     },
     {
       "name": "VirIT",
-      "score": 3.7503,
+      "score": 4.2502,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -133,13 +133,6 @@
       "engine": "Elastic",
       "result": "Windows.Rootkit.WinDivert",
       "since": "2026-11-20T12:00:21+09:00",
-      "uncertain": false
-    },
-    {
-      "file_id": "F-6e8b6a68",
-      "engine": "ClamAV",
-      "result": "Win.Trojan.DirtJumper-2",
-      "since": "2026-11-21T00:00:22+09:00",
       "uncertain": false
     },
     {
