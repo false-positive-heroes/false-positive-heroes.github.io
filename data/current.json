@@ -2,13 +2,13 @@
   "month": "2026-11",
   "status": "provisional",
   "since": "2026-11-01T00:00:00+09:00",
-  "cutoff": "2026-11-22T09:00:38+09:00",
-  "files": 57,
+  "cutoff": "2026-11-22T18:00:19+09:00",
+  "files": 55,
   "methodVersion": 2,
   "engines": [
     {
       "name": "Elastic",
-      "score": 57.301,
+      "score": 58.0505,
       "count": 8,
       "active": 1,
       "closed": 3,
@@ -17,7 +17,7 @@
     },
     {
       "name": "MaxSecure",
-      "score": 46.5011,
+      "score": 47.2507,
       "count": 4,
       "active": 0,
       "closed": 2,
@@ -26,7 +26,7 @@
     },
     {
       "name": "DeepInstinct",
-      "score": 42.5044,
+      "score": 43.2539,
       "count": 4,
       "active": 1,
       "closed": 2,
@@ -35,7 +35,7 @@
     },
     {
       "name": "SentinelOne",
-      "score": 21.3754,
+      "score": 21.7502,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -44,7 +44,7 @@
     },
     {
       "name": "TrellixENS",
-      "score": 21.3754,
+      "score": 21.7502,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -53,7 +53,7 @@
     },
     {
       "name": "ClamAV",
-      "score": 20.3434,
+      "score": 20.7182,
       "count": 4,
       "active": 0,
       "closed": 0,
@@ -62,7 +62,7 @@
     },
     {
       "name": "Kingsoft",
-      "score": 19.3694,
+      "score": 19.7442,
       "count": 10,
       "active": 1,
       "closed": 9,
@@ -71,7 +71,7 @@
     },
     {
       "name": "Antiy-AVL",
-      "score": 14.3635,
+      "score": 14.7383,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -80,21 +80,12 @@
     },
     {
       "name": "Microsoft",
-      "score": 5.3091,
-      "count": 2,
-      "active": 0,
+      "score": 5.5586,
+      "count": 3,
+      "active": 1,
       "closed": 1,
       "uncertain": 0,
       "retired": 1
-    },
-    {
-      "name": "VirIT",
-      "score": 4.3752,
-      "count": 1,
-      "active": 0,
-      "closed": 0,
-      "uncertain": 1,
-      "retired": 0
     },
     {
       "name": "Malwarebytes",
@@ -104,6 +95,15 @@
       "closed": 2,
       "uncertain": 0,
       "retired": 0
+    },
+    {
+      "name": "VirIT",
+      "score": 1.0109,
+      "count": 1,
+      "active": 0,
+      "closed": 0,
+      "uncertain": 0,
+      "retired": 1
     }
   ],
   "ongoing": [
@@ -133,6 +133,13 @@
       "engine": "Elastic",
       "result": "Windows.Rootkit.WinDivert",
       "since": "2026-11-20T12:00:21+09:00",
+      "uncertain": false
+    },
+    {
+      "file_id": "F-e80c94b9",
+      "engine": "Microsoft",
+      "result": "Trojan:Script/Wacatac.B!ml",
+      "since": "2026-11-22T12:01:04+09:00",
       "uncertain": false
     }
   ]
