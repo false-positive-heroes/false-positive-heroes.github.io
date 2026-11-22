@@ -2,13 +2,13 @@
   "month": "2026-11",
   "status": "provisional",
   "since": "2026-11-01T00:00:00+09:00",
-  "cutoff": "2026-11-22T06:00:39+09:00",
+  "cutoff": "2026-11-22T09:00:38+09:00",
   "files": 57,
   "methodVersion": 2,
   "engines": [
     {
       "name": "Elastic",
-      "score": 57.051,
+      "score": 57.301,
       "count": 8,
       "active": 1,
       "closed": 3,
@@ -17,7 +17,7 @@
     },
     {
       "name": "MaxSecure",
-      "score": 46.2512,
+      "score": 46.5011,
       "count": 4,
       "active": 0,
       "closed": 2,
@@ -26,16 +26,16 @@
     },
     {
       "name": "DeepInstinct",
-      "score": 42.2544,
+      "score": 42.5044,
       "count": 4,
-      "active": 2,
+      "active": 1,
       "closed": 2,
-      "uncertain": 0,
+      "uncertain": 1,
       "retired": 0
     },
     {
       "name": "SentinelOne",
-      "score": 21.2505,
+      "score": 21.3754,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -44,7 +44,7 @@
     },
     {
       "name": "TrellixENS",
-      "score": 21.2505,
+      "score": 21.3754,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -53,7 +53,7 @@
     },
     {
       "name": "ClamAV",
-      "score": 20.2184,
+      "score": 20.3434,
       "count": 4,
       "active": 0,
       "closed": 0,
@@ -62,7 +62,7 @@
     },
     {
       "name": "Kingsoft",
-      "score": 19.2444,
+      "score": 19.3694,
       "count": 10,
       "active": 1,
       "closed": 9,
@@ -71,7 +71,7 @@
     },
     {
       "name": "Antiy-AVL",
-      "score": 14.2385,
+      "score": 14.3635,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -89,7 +89,7 @@
     },
     {
       "name": "VirIT",
-      "score": 4.2502,
+      "score": 4.3752,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -133,13 +133,6 @@
       "engine": "Elastic",
       "result": "Windows.Rootkit.WinDivert",
       "since": "2026-11-20T12:00:21+09:00",
-      "uncertain": false
-    },
-    {
-      "file_id": "F-bc89365f",
-      "engine": "DeepInstinct",
-      "result": "MALICIOUS",
-      "since": "2026-11-21T00:17:47+09:00",
       "uncertain": false
     }
   ]
