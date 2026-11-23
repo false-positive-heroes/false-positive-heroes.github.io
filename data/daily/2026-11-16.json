@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-16",
+  "cutoff": "2026-11-17T00:00:00+09:00",
+  "complete": true,
+  "events": [
+    {
+      "time": "2026-11-16T00:15:18+09:00",
+      "type": "released",
+      "file_id": "F-9ba48774",
+      "engine": "Kingsoft",
+      "result": "malware.kb.a.778"
+    },
+    {
+      "time": "2026-11-16T00:15:18+09:00",
+      "type": "released",
+      "file_id": "F-9ba48774",
+      "engine": "Malwarebytes",
+      "result": "MachineLearning/Anomalous.93%"
+    },
+    {
+      "time": "2026-11-16T03:00:05+09:00",
+      "type": "uncertain",
+      "file_id": "F-19ce23fa",
+      "engine": "MaxSecure",
+      "result": "Trojan.Malware.300983.susgen"
+    },
+    {
+      "time": "2026-11-16T09:00:22+09:00",
+      "type": "retired",
+      "file_id": "F-cc53af8d",
+      "engine": "ClamAV",
+      "result": "Win.Trojan.DirtJumper-2"
+    },
+    {
+      "time": "2026-11-16T12:17:29+09:00",
+      "type": "uncertain",
+      "file_id": "F-f1d33156",
+      "engine": "Antiy-AVL",
+      "result": "GrayWare[AdWare]/Win32.Caypnamer"
+    },
+    {
+      "time": "2026-11-16T12:17:29+09:00",
+      "type": "uncertain",
+      "file_id": "F-f1d33156",
+      "engine": "MaxSecure",
+      "result": "Trojan.Malware.300983.susgen"
+    },
+    {
+      "time": "2026-11-16T21:47:15+09:00",
+      "type": "detected",
+      "file_id": "F-25ae01ce",
+      "engine": "ClamAV",
+      "result": "Win.Trojan.DirtJumper-2"
+    }
+  ],
+  "ongoing": 12
+}
