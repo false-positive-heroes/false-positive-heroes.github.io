@@ -2,13 +2,13 @@
   "month": "2026-11",
   "status": "provisional",
   "since": "2026-11-01T00:00:00+09:00",
-  "cutoff": "2026-11-23T06:00:54+09:00",
+  "cutoff": "2026-11-23T12:00:56+09:00",
   "files": 57,
   "methodVersion": 2,
   "engines": [
     {
       "name": "Elastic",
-      "score": 59.0514,
+      "score": 59.5514,
       "count": 8,
       "active": 1,
       "closed": 3,
@@ -17,7 +17,7 @@
     },
     {
       "name": "MaxSecure",
-      "score": 48.2515,
+      "score": 48.7516,
       "count": 4,
       "active": 0,
       "closed": 2,
@@ -26,16 +26,16 @@
     },
     {
       "name": "DeepInstinct",
-      "score": 44.5029,
+      "score": 45.253,
       "count": 5,
-      "active": 3,
+      "active": 1,
       "closed": 2,
-      "uncertain": 0,
+      "uncertain": 2,
       "retired": 0
     },
     {
       "name": "SentinelOne",
-      "score": 22.2506,
+      "score": 22.5006,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -44,7 +44,7 @@
     },
     {
       "name": "TrellixENS",
-      "score": 22.2506,
+      "score": 22.5006,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -53,7 +53,7 @@
     },
     {
       "name": "ClamAV",
-      "score": 21.2186,
+      "score": 21.4686,
       "count": 4,
       "active": 0,
       "closed": 0,
@@ -62,7 +62,7 @@
     },
     {
       "name": "Kingsoft",
-      "score": 20.3575,
+      "score": 20.6075,
       "count": 11,
       "active": 1,
       "closed": 10,
@@ -71,7 +71,7 @@
     },
     {
       "name": "Antiy-AVL",
-      "score": 15.2387,
+      "score": 15.4887,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -109,13 +109,6 @@
   "ongoing": [
     {
       "file_id": "F-5393a814",
-      "engine": "DeepInstinct",
-      "result": "MALICIOUS",
-      "since": "2026-10-30T12:02:36+09:00",
-      "uncertain": false
-    },
-    {
-      "file_id": "F-5393a814",
       "engine": "SentinelOne",
       "result": "Static AI - Suspicious Archive",
       "since": "2026-10-30T12:02:36+09:00",
@@ -133,13 +126,6 @@
       "engine": "Elastic",
       "result": "Windows.Rootkit.WinDivert",
       "since": "2026-11-20T12:00:21+09:00",
-      "uncertain": false
-    },
-    {
-      "file_id": "F-bc89365f",
-      "engine": "DeepInstinct",
-      "result": "MALICIOUS",
-      "since": "2026-11-21T00:17:47+09:00",
       "uncertain": false
     },
     {
