@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-18",
+  "cutoff": "2026-11-19T00:00:00+09:00",
+  "complete": true,
+  "events": [
+    {
+      "time": "2026-11-18T00:00:24+09:00",
+      "type": "detected",
+      "file_id": "F-dac3bb70",
+      "engine": "VirIT",
+      "result": "Trojan.Win32.NSISGenT.AHLO"
+    },
+    {
+      "time": "2026-11-18T00:03:15+09:00",
+      "type": "detected",
+      "file_id": "F-fdae5c70",
+      "engine": "Elastic",
+      "result": "Windows.Rootkit.WinDivert"
+    }
+  ],
+  "ongoing": 13
+}

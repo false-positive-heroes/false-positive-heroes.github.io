@@ -2,13 +2,13 @@
   "month": "2026-11",
   "status": "provisional",
   "since": "2026-11-01T00:00:00+09:00",
-  "cutoff": "2026-11-25T09:00:06+09:00",
+  "cutoff": "2026-11-26T00:00:57+09:00",
   "files": 57,
   "methodVersion": 2,
   "engines": [
     {
       "name": "Elastic",
-      "score": 63.3002,
+      "score": 64.5514,
       "count": 8,
       "active": 0,
       "closed": 3,
@@ -17,7 +17,7 @@
     },
     {
       "name": "MaxSecure",
-      "score": 52.5004,
+      "score": 53.7516,
       "count": 4,
       "active": 0,
       "closed": 2,
@@ -26,25 +26,25 @@
     },
     {
       "name": "DeepInstinct",
-      "score": 49.8762,
+      "score": 51.1274,
       "count": 5,
-      "active": 1,
+      "active": 0,
       "closed": 2,
-      "uncertain": 1,
+      "uncertain": 2,
       "retired": 1
     },
     {
       "name": "SentinelOne",
-      "score": 24.3751,
+      "score": 25.0007,
       "count": 1,
-      "active": 1,
+      "active": 0,
       "closed": 0,
-      "uncertain": 0,
+      "uncertain": 1,
       "retired": 0
     },
     {
       "name": "TrellixENS",
-      "score": 24.3751,
+      "score": 25.0007,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -53,7 +53,7 @@
     },
     {
       "name": "ClamAV",
-      "score": 23.3431,
+      "score": 23.9687,
       "count": 4,
       "active": 0,
       "closed": 0,
@@ -62,7 +62,7 @@
     },
     {
       "name": "Kingsoft",
-      "score": 22.482,
+      "score": 23.1075,
       "count": 11,
       "active": 1,
       "closed": 10,
@@ -71,7 +71,7 @@
     },
     {
       "name": "Antiy-AVL",
-      "score": 17.3631,
+      "score": 17.9887,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -107,20 +107,6 @@
     }
   ],
   "ongoing": [
-    {
-      "file_id": "F-5393a814",
-      "engine": "DeepInstinct",
-      "result": "MALICIOUS",
-      "since": "2026-10-30T12:02:36+09:00",
-      "uncertain": false
-    },
-    {
-      "file_id": "F-5393a814",
-      "engine": "SentinelOne",
-      "result": "Static AI - Suspicious Archive",
-      "since": "2026-10-30T12:02:36+09:00",
-      "uncertain": false
-    },
     {
       "file_id": "F-5393a814",
       "engine": "Kingsoft",

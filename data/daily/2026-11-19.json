@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-19",
+  "cutoff": "2026-11-20T00:00:00+09:00",
+  "complete": true,
+  "events": [
+    {
+      "time": "2026-11-19T00:16:08+09:00",
+      "type": "retired",
+      "file_id": "F-dac3bb70",
+      "engine": "VirIT",
+      "result": "Trojan.Win32.NSISGenT.AHLO"
+    }
+  ],
+  "ongoing": 12
+}
