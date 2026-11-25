@@ -2,22 +2,22 @@
   "month": "2026-11",
   "status": "provisional",
   "since": "2026-11-01T00:00:00+09:00",
-  "cutoff": "2026-11-25T00:23:06+09:00",
+  "cutoff": "2026-11-25T09:00:06+09:00",
   "files": 57,
   "methodVersion": 2,
   "engines": [
     {
       "name": "Elastic",
-      "score": 62.5822,
+      "score": 63.3002,
       "count": 8,
-      "active": 1,
+      "active": 0,
       "closed": 3,
-      "uncertain": 1,
+      "uncertain": 2,
       "retired": 3
     },
     {
       "name": "MaxSecure",
-      "score": 51.7823,
+      "score": 52.5004,
       "count": 4,
       "active": 0,
       "closed": 2,
@@ -26,7 +26,7 @@
     },
     {
       "name": "DeepInstinct",
-      "score": 49.1582,
+      "score": 49.8762,
       "count": 5,
       "active": 1,
       "closed": 2,
@@ -35,7 +35,7 @@
     },
     {
       "name": "SentinelOne",
-      "score": 24.016,
+      "score": 24.3751,
       "count": 1,
       "active": 1,
       "closed": 0,
@@ -44,7 +44,7 @@
     },
     {
       "name": "TrellixENS",
-      "score": 24.016,
+      "score": 24.3751,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -53,7 +53,7 @@
     },
     {
       "name": "ClamAV",
-      "score": 22.984,
+      "score": 23.3431,
       "count": 4,
       "active": 0,
       "closed": 0,
@@ -62,7 +62,7 @@
     },
     {
       "name": "Kingsoft",
-      "score": 22.1229,
+      "score": 22.482,
       "count": 11,
       "active": 1,
       "closed": 10,
@@ -71,7 +71,7 @@
     },
     {
       "name": "Antiy-AVL",
-      "score": 17.0041,
+      "score": 17.3631,
       "count": 1,
       "active": 0,
       "closed": 0,
@@ -126,13 +126,6 @@
       "engine": "Kingsoft",
       "result": "malware.kb.a.999",
       "since": "2026-11-09T03:00:53+09:00",
-      "uncertain": false
-    },
-    {
-      "file_id": "F-866d0293",
-      "engine": "Elastic",
-      "result": "Windows.Rootkit.WinDivert",
-      "since": "2026-11-20T12:00:21+09:00",
       "uncertain": false
     }
   ]
